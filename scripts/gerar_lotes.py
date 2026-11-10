@@ -19,6 +19,10 @@ for r in base["linhas"]:
 if "--so" in sys.argv:
     so = sys.argv[sys.argv.index("--so") + 1].split(",")
     doms = [d for d in doms if d in so]
+marc_arq = os.path.join(RAIZ, "data/marcacoes.json")
+ignoradas = set(json.load(open(marc_arq, encoding="utf-8")).get("ignorada", {})) if os.path.exists(marc_arq) else set()
+pulei = [d for d in doms if d in ignoradas]
+doms = [d for d in doms if d not in ignoradas]
 exata = set(json.load(open(os.path.join(RAIZ, "data/consulta.json")))["exata"])
 
 ext = open(os.path.join(RAIZ, "scripts/extrator.js"), encoding="utf-8").read().replace("\nR\n", "\nreturn R\n")
@@ -42,4 +46,4 @@ open(f"{OUT}/dump.js", "w").write(
     "const r=JSON.parse(sessionStorage.getItem('radarRes')||'{}');"
     "Object.values(r).map(o=>[o.q.replace(/\"/g,''),o.total,o.amostra,o.oldest||'',o.n1,o.n7,"
     "Object.entries(o.adv).map(([k,v])=>k+'~'+v).join('|')||'-'].join('\\t')).join('\\n')")
-print(f"{len(doms)} domínios em {n} lotes -> {OUT}")
+print(f"{len(doms)} domínios em {n} lotes -> {OUT} ({len(pulei)} ignoradas fora da busca)")

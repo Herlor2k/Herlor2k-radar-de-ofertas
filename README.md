@@ -8,6 +8,18 @@ domínio e quantos criativos novos subiram, para dizer se a oferta está **escal
 Site estático (HTML + JS puro), sem build. Na Vercel: importar o repositório, framework
 "Other", sem comando de build, diretório raiz `/`.
 
+## Estrelas e ignoradas
+O site tem três pastas: **Radar** (tudo que é acompanhado), **★ Com estrela** e **Ignoradas**.
+Ofertas ignoradas saem da busca diária até voltarem a ser acompanhadas.
+
+As marcações ficam em `data/marcacoes.json` e são gravadas pela função `api/marcacoes.js`.
+Para funcionar, configure na Vercel (Settings → Environment Variables) e faça um redeploy:
+
+- `GITHUB_TOKEN`: token *fine-grained* do GitHub com acesso só a este repositório e permissão **Contents: Read and write**.
+- `RADAR_SENHA`: uma senha qualquer. O site pede uma vez e guarda no navegador. Sem ela, qualquer pessoa com o link consegue marcar.
+
+Marcar uma oferta não dispara um novo deploy (`vercel.json` ignora commits que só mexem em `data/marcacoes.json`).
+
 ## Como funciona
 - `data/ofertas.json`: ofertas da planilha (aba OFERTAS), um domínio por oferta.
 - `data/coletas/AAAA-MM-DD.json`: coleta diária na Biblioteca de Anúncios (Brasil, anúncios ativos, busca pelo domínio).

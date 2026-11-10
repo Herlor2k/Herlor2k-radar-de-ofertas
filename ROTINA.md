@@ -13,7 +13,7 @@ Passo a passo que a tarefa agendada segue todo dia. Leva ~30 chamadas de navegad
   `python3 scripts/adicionar_ofertas.py /tmp/novas.json`.
 
 ## 3. Coleta na Biblioteca de Anúncios (navegador embutido do app)
-1. `python3 scripts/gerar_lotes.py` → cria `/tmp/lotes/`.
+1. `python3 scripts/gerar_lotes.py` → cria `/tmp/lotes/`. Ofertas em `data/marcacoes.json → ignorada` ficam de fora automaticamente.
 2. Abrir `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all`
    e rodar o conteúdo de `/tmp/lotes/setup.js` com `javascript_tool`.
 3. Para cada `/tmp/lotes/lote_XX.json`, chamar `browser_batch` com o conteúdo do arquivo.
@@ -27,7 +27,7 @@ Passo a passo que a tarefa agendada segue todo dia. Leva ~30 chamadas de navegad
 
 ## 4. Publicar
 - `python3 scripts/build.py` (gera `data/radar.json`).
-- Commit `Coleta AAAA-MM-DD` e push na `main`. A Vercel publica sozinha.
+- Commit `Coleta AAAA-MM-DD`, `git pull --rebase` (o site grava estrelas/ignoradas direto na `main`) e push. A Vercel publica sozinha.
 
 ## Regras
 - Nunca inventar número. Se um domínio não carregar, ele fica sem leitura no dia.

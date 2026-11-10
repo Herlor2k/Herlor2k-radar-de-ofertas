@@ -117,3 +117,25 @@ table.hist td.n{text-align:right}
 .tip{position:fixed;pointer-events:none;background:var(--surface-2);border:1px solid var(--axis);border-radius:8px;padding:8px 10px;font-size:12.5px;z-index:20;box-shadow:0 6px 24px rgba(0,0,0,.25)}
 .tip b{display:block;font-size:14px}
 @media (max-width:480px){.atualizado{display:none}}
+
+/* pastas e marcações */
+.abas{display:flex;gap:4px;margin-bottom:18px;border-bottom:1px solid var(--line)}
+.aba{background:none;border:0;border-bottom:2px solid transparent;color:var(--ink-2);font:inherit;font-weight:500;padding:10px 14px;margin-bottom:-1px;cursor:pointer}
+.aba:hover{color:var(--ink)}
+.aba[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--serie)}
+.aba .num{color:var(--muted);font-size:12.5px;margin-left:4px}
+.nota-pasta{color:var(--muted);font-size:13.5px;margin:-6px 0 16px}
+.lista li.item{display:grid;grid-template-columns:48px minmax(0,1fr);align-items:center}
+.lista li.item .linha{padding-left:4px}
+.marca-btn{width:36px;height:36px;margin-left:10px;display:grid;place-items:center;border-radius:8px;border:0;background:none;color:var(--muted);cursor:pointer;font-size:17px}
+.marca-btn:hover{background:var(--surface-2);color:var(--ink)}
+.marca-btn.on{color:var(--warning)}
+.acoes{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.btn-acao{display:inline-flex;align-items:center;gap:6px;font:inherit;font-size:13.5px;font-weight:500;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.btn-acao:hover{border-color:var(--axis)}
+.btn-acao.on{color:var(--warning);border-color:color-mix(in srgb,var(--warning) 45%,var(--line))}
+.btn-acao.on{color:var(--ink)} .btn-acao.on svg{color:var(--warning)}
+.faixa-ignorada{background:var(--surface-2);border:1px dashed var(--axis);border-radius:var(--raio);padding:12px 16px;color:var(--ink-2);font-size:14px;margin-bottom:16px}
+.aviso{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--ink);color:var(--plane);padding:10px 16px;border-radius:999px;font-size:14px;font-weight:500;transition:.2s;z-index:30}
+.aviso.on{opacity:1;transform:translate(-50%,0)}
+@media (max-width:640px){.lista li.item{grid-template-columns:40px minmax(0,1fr)}.marca-btn{margin-left:4px}}

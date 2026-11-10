@@ -183,14 +183,17 @@ def main():
             p = {"d": d, "ativos": res.get("total"), "anunciantes": n_adv if res.get("total") is not None else None,
                  "n7": min(res.get("n7") or 0, res.get("total") or 0) if res.get("total") is not None else None, "fonte": "coleta"}
             serie = [x for x in serie if x["d"] != d or x["fonte"] != "planilha"] + [p]
-            if d == hoje:
-                atual = {"ativos": res.get("total"), "anunciantes": p["anunciantes"], "adv": advs,
+            if True:  # fica com a leitura mais recente disponível
+                atual = {"d": d, "ativos": res.get("total"), "anunciantes": p["anunciantes"], "adv": advs,
                          "oldest": res.get("oldest"), "n1": min(res.get("n1") or 0, res.get("total") or 0), "n7": p["n7"],
                          "amostra": res.get("amostra")}
         serie.sort(key=lambda x: (x["d"], x["fonte"] != "planilha"))
         o["serie"] = serie
         o["atual"] = atual
-        o["diag"] = diagnosticar(o, serie, atual, hoje)
+        dia_ref = atual["d"] if atual else hoje
+        o["diag"] = diagnosticar(o, serie, atual, dia_ref)
+        if atual and atual["d"] != hoje:
+            o["diag"]["pontos"].insert(0, f"Última leitura em {fmt(atual['d'])}: a oferta não foi checada depois disso.")
         ofertas.append(o)
 
     ordem = {"Escalando": 0, "Estagnada": 1, "Morrendo": 2, "Sem leitura": 3}

@@ -2,7 +2,47 @@
   const app = document.getElementById('app');
   const tip = document.getElementById('tip');
   let DADOS = null;
-  const estado = { filtro: null, busca: '', ordem: 'status' };
+  const estado = { filtro: null, busca: '', ordem: 'status', pasta: 'radar' };
+  let MARC = { estrela: {}, ignorada: {} };
+  let SO_LEITURA = false;
+  const marcada = (o, t) => !!MARC[t][o.dominio];
+  const naPasta = (o, p) => p === 'ignorada' ? marcada(o, 'ignorada')
+    : p === 'estrela' ? marcada(o, 'estrela') && !marcada(o, 'ignorada')
+    : !marcada(o, 'ignorada');
+
+  function aviso(msg) {
+    let t = document.getElementById('aviso');
+    if (!t) { t = document.createElement('div'); t.id = 'aviso'; t.className = 'aviso'; document.body.appendChild(t); }
+    t.textContent = msg; t.classList.add('on');
+    clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 3200);
+  }
+
+  async function marcar(dominio, tipo, valor) {
+    if (SO_LEITURA) { aviso('Marcações indisponíveis: configure o GITHUB_TOKEN na Vercel.'); return; }
+    const antes = JSON.parse(JSON.stringify(MARC));
+    if (valor) { MARC[tipo][dominio] = new Date().toISOString().slice(0, 10); if (tipo === 'ignorada') delete MARC.estrela[dominio]; }
+    else delete MARC[tipo][dominio];
+    rota();
+    for (let tentativa = 0; tentativa < 2; tentativa++) {
+      let senha = ''; try { senha = localStorage.getItem('radarSenha') || ''; } catch (_) {}
+      try {
+        const r = await fetch('/api/marcacoes', { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-radar-senha': senha }, body: JSON.stringify({ dominio, tipo, valor }) });
+        if (r.status === 401 && tentativa === 0) {
+          const s = prompt('Senha do Radar (fica salva neste navegador):');
+          if (!s) break;
+          try { localStorage.setItem('radarSenha', s); } catch (_) {}
+          continue;
+        }
+        if (!r.ok) throw new Error((await r.json().catch(() => ({}))).erro || r.status);
+        const j = await r.json(); MARC = { estrela: j.estrela || {}, ignorada: j.ignorada || {} };
+        const nome = { estrela: valor ? 'Estrela adicionada' : 'Estrela removida', ignorada: valor ? 'Oferta ignorada: sai da busca diária' : 'Oferta volta a ser acompanhada' }[tipo];
+        aviso(nome); rota(); return;
+      } catch (e) { aviso('Não salvou: ' + e.message); break; }
+    }
+    MARC = antes; rota();
+  }
+
+  const ESTRELA = (on) => `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4L2.8 9.5l6.4-.8z" fill="${on ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
 
   const ICONE = { 'Escalando': '▲', 'Estagnada': '■', 'Morrendo': '▼', 'Sem leitura': '?' };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -35,15 +75,22 @@
 
   /* ---------- lista ---------- */
   function lista() {
-    const c = DADOS.contagem;
+    const daPasta = DADOS.ofertas.filter(o => naPasta(o, estado.pasta));
+    const c = {}; daPasta.forEach(o => c[o.diag.status] = (c[o.diag.status] || 0) + 1);
+    const nP = p => DADOS.ofertas.filter(o => naPasta(o, p)).length;
+    const abas = [['radar', 'Radar'], ['estrela', '★ Com estrela'], ['ignorada', 'Ignoradas']].map(([k, n]) =>
+      `<button class="aba" data-p="${k}" aria-selected="${estado.pasta === k}">${n} <span class="num">${nP(k)}</span></button>`).join('');
     const chips = ['Escalando', 'Estagnada', 'Morrendo'].map(s => `
       <button class="chip ${cls(s)}" data-f="${s}" aria-pressed="${estado.filtro === s}">
         <div class="rot"><span class="badge ${cls(s)}" style="padding:0;border:0;background:none"><span class="ic">${ICONE[s]}</span></span>${s}</div>
         <div class="val num">${c[s] || 0}</div>
       </button>`).join('');
+    const legenda = { radar: 'Todas as ofertas acompanhadas', estrela: 'Com estrela', ignorada: 'Ignoradas' }[estado.pasta];
     app.innerHTML = `
+      <nav class="abas" role="tablist">${abas}</nav>
+      ${estado.pasta === 'ignorada' ? '<p class="nota-pasta">Ofertas ignoradas ficam fora da busca diária. O que aparece aqui é a última leitura antes de ignorar.</p>' : ''}
       <section class="resumo">
-        <button class="chip" data-f="" aria-pressed="${!estado.filtro}"><div class="rot">Todas as ofertas</div><div class="val num">${DADOS.ofertas.length}</div></button>
+        <button class="chip" data-f="" aria-pressed="${!estado.filtro}"><div class="rot">${legenda}</div><div class="val num">${daPasta.length}</div></button>
         ${chips}
       </section>
       <div class="ferramentas">
@@ -59,6 +106,7 @@
       <ul class="lista" id="lista"></ul>`;
     app.querySelector('.ord').value = estado.ordem;
     app.querySelectorAll('.chip').forEach(b => b.onclick = () => { estado.filtro = b.dataset.f || null; lista(); });
+    app.querySelectorAll('.aba').forEach(b => b.onclick = () => { estado.pasta = b.dataset.p; estado.filtro = null; lista(); });
     const busca = app.querySelector('.busca');
     busca.oninput = () => { estado.busca = busca.value; linhas(); };
     app.querySelector('.ord').onchange = e => { estado.ordem = e.target.value; linhas(); };
@@ -67,7 +115,7 @@
 
   function linhas() {
     const q = estado.busca.trim().toLowerCase();
-    let os = DADOS.ofertas.filter(o => (!estado.filtro || o.diag.status === estado.filtro) &&
+    let os = DADOS.ofertas.filter(o => naPasta(o, estado.pasta) && (!estado.filtro || o.diag.status === estado.filtro) &&
       (!q || (o.anunciante + ' ' + o.nicho + ' ' + o.dominio).toLowerCase().includes(q)));
     const at = o => o.atual?.ativos ?? -1;
     const vr = o => o.diag.var ?? 0;
@@ -76,13 +124,20 @@
     if (estado.ordem === 'ativos') os = [...os].sort((a, b) => at(b) - at(a));
     if (estado.ordem === 'nota') os = [...os].sort((a, b) => (+b.nota || 0) - (+a.nota || 0));
     const ul = document.getElementById('lista');
+    const vazio = (!estado.busca && !estado.filtro && estado.pasta === 'estrela') ? 'Nenhuma oferta com estrela ainda. Clique na estrela ao lado de uma oferta para salvar aqui.'
+      : (!estado.busca && !estado.filtro && estado.pasta === 'ignorada') ? 'Nenhuma oferta ignorada.' : 'Nenhuma oferta encontrada.';
     ul.innerHTML = os.length ? os.map(o => `
-      <li><a class="linha" href="#/oferta/${o.id}">
+      <li class="item">${estado.pasta === 'ignorada'
+        ? `<button class="marca-btn restaurar" data-d="${esc(o.dominio)}" title="Voltar a acompanhar" aria-label="Voltar a acompanhar ${esc(o.anunciante)}">↺</button>`
+        : `<button class="marca-btn estrela ${marcada(o, 'estrela') ? 'on' : ''}" data-d="${esc(o.dominio)}" aria-pressed="${marcada(o, 'estrela')}" aria-label="${marcada(o, 'estrela') ? 'Tirar estrela de' : 'Dar estrela para'} ${esc(o.anunciante)}">${ESTRELA(marcada(o, 'estrela'))}</button>`}
+        <a class="linha" href="#/oferta/${o.id}">
         <div style="min-width:0"><div class="nome">${esc(o.anunciante)}</div><div class="nicho">${esc(o.nicho)}</div></div>
         ${badge(o.diag.status)}
         ${sparkline(o.serie)}
         <div class="ativos"><b class="num">${o.atual?.ativos ?? '—'}</b> <span style="color:var(--muted);font-size:13px">anúncios</span>${variacao(o)}</div>
-      </a></li>`).join('') : '<li class="vazio">Nenhuma oferta encontrada.</li>';
+      </a></li>`).join('') : `<li class="vazio">${vazio}</li>`;
+    ul.querySelectorAll('.estrela').forEach(b => b.onclick = () => marcar(b.dataset.d, 'estrela', b.getAttribute('aria-pressed') !== 'true'));
+    ul.querySelectorAll('.restaurar').forEach(b => b.onclick = () => marcar(b.dataset.d, 'ignorada', false));
   }
 
   /* ---------- gráfico de linha ---------- */
@@ -136,11 +191,16 @@
     const hist = [...o.serie].reverse();
 
     app.innerHTML = `
-      <a class="voltar" href="#/">← Todas as ofertas</a>
+      <a class="voltar" href="#/">← Voltar à lista</a>
       <div class="cab">
         <div><h1>${esc(o.anunciante)}</h1><div class="sub">${esc(o.nicho)} · <span class="num" style="font-size:13px">${esc(o.dominio)}</span></div></div>
-        ${badge(o.diag.status)}
+        <div class="acoes">
+          ${badge(o.diag.status)}
+          ${marcada(o, 'ignorada') ? '' : `<button class="btn-acao ${marcada(o, 'estrela') ? 'on' : ''}" id="b-estrela" aria-pressed="${marcada(o, 'estrela')}">${ESTRELA(marcada(o, 'estrela'))}${marcada(o, 'estrela') ? 'Com estrela' : 'Dar estrela'}</button>`}
+          <button class="btn-acao" id="b-ignorar">${marcada(o, 'ignorada') ? '↺ Voltar a acompanhar' : 'Ignorar'}</button>
+        </div>
       </div>
+      ${marcada(o, 'ignorada') ? `<div class="faixa-ignorada">Ignorada desde ${fmtD(MARC.ignorada[o.dominio])}. Esta oferta não entra na busca diária; os números abaixo são da última leitura.</div>` : ''}
       <section class="veredito ${cls(o.diag.status)}">
         <strong>${esc(o.diag.acao)}</strong>
         <ul>${o.diag.pontos.map(p => `<li>${esc(p)}</li>`).join('')}</ul>
@@ -182,16 +242,25 @@
           </div>
         </section>
       </div>`;
-    window.scrollTo(0, 0);
+    const be = document.getElementById('b-estrela');
+    if (be) be.onclick = () => marcar(o.dominio, 'estrela', !marcada(o, 'estrela'));
+    document.getElementById('b-ignorar').onclick = () => marcar(o.dominio, 'ignorada', !marcada(o, 'ignorada'));
+    if (estado._ultimo !== id) window.scrollTo(0, 0);
+    estado._ultimo = id;
   }
 
   function rota() {
     tip.hidden = true;
     const m = location.hash.match(/^#\/oferta\/(.+)$/);
-    if (m) detalhe(decodeURIComponent(m[1])); else lista();
+    if (m) detalhe(decodeURIComponent(m[1])); else { estado._ultimo = null; lista(); }
   }
 
-  fetch('data/radar.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+  const carregarMarcacoes = () => fetch('/api/marcacoes', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw 0; return r.json(); })
+    .catch(() => { SO_LEITURA = true; return fetch('data/marcacoes.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({})); })
+    .then(m => { MARC = { estrela: m.estrela || {}, ignorada: m.ignorada || {} }; });
+
+  Promise.all([fetch('data/radar.json', { cache: 'no-store' }).then(r => r.json()), carregarMarcacoes()]).then(([d]) => {
     DADOS = d;
     document.getElementById('atualizado').textContent = `Última coleta: ${fmtD(d.atualizado_em)} · ${d.coletas.length} coleta${d.coletas.length === 1 ? '' : 's'}`;
     window.addEventListener('hashchange', rota);
