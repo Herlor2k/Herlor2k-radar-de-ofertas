@@ -34,3 +34,11 @@ Compara a coleta de hoje com o ponto de 7 dias atrás (ou o número anotado na p
 | Escalando | anúncios +25% (e pelo menos +3), mais anunciantes no domínio, ou ≥30% dos anúncios subiram nos últimos 7 dias |
 | Morrendo | anúncios −35% ou mais sem criativos novos, ou zero anúncios ativos |
 | Estagnada | o resto, incluindo quem caiu mas está trocando criativos |
+
+## 🔥 Escalando de verdade
+Botão que filtra ofertas com **1 anunciante** no domínio, **anúncio ativo mais antigo com menos de 30 dias**
+e **mais anúncios ativos do que na referência** (7 dias atrás, ou o número da planilha no começo).
+
+## Temas
+`scripts/build.py` agrupa os nichos em temas por palavra-chave (lista `TEMAS`). Temas com menos de 3 ofertas vão para "Outros".
+Para criar um tema novo ou mudar onde um nicho cai, edite essa lista.

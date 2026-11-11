@@ -74,7 +74,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 1135.3
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 278,
+   "fogo": false
   },
   {
    "id": "renato-edifica-construcoes-e-reformas-nucleoedifica",
@@ -139,7 +142,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 608.6
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 4,
+   "fogo": true
   },
   {
    "id": "julio-luchmann-julioluchmann",
@@ -207,7 +213,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 398.0
-   }
+   },
+   "tema": "Outros",
+   "idade_dias": 158,
+   "fogo": false
   },
   {
    "id": "j-t-cursos-psicologia-jtpsi",
@@ -272,7 +281,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 391.4
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 179,
+   "fogo": false
   },
   {
    "id": "mineiro-das-vendas-trafego-pago-mineirodasvendas",
@@ -337,7 +349,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 386.7
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 7,
+   "fogo": true
   },
   {
    "id": "mariane-assis-dias-lps",
@@ -403,7 +418,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 226.0
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 86,
+   "fogo": false
   },
   {
    "id": "luana-oliveira-as365receitascheflu",
@@ -469,7 +487,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 219.9
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 149,
+   "fogo": false
   },
   {
    "id": "doce-atelie-bolos-da-paty-metodobrp",
@@ -534,7 +555,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 200.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 62,
+   "fogo": false
   },
   {
    "id": "guilherme-teixeira-fxtreinospro",
@@ -598,7 +622,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 160.0
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 0,
+   "fogo": true
   },
   {
    "id": "gj-treinamentos-contabeis-gjtreinamentoscontabeis",
@@ -663,7 +690,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 148.0
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 162,
+   "fogo": false
   },
   {
    "id": "mari-dos-perfumes-quiz",
@@ -728,7 +758,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 147.7
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 169,
+   "fogo": false
   },
   {
    "id": "giselle-cristina-campanhas",
@@ -793,7 +826,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 135.1
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 154,
+   "fogo": false
   },
   {
    "id": "aisne-morelli-aisnemorelli",
@@ -858,7 +894,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 132.9
-   }
+   },
+   "tema": "Artesanato",
+   "idade_dias": 20,
+   "fogo": true
   },
   {
    "id": "mayara-campos-doces-mayaracamposconfeitaria",
@@ -924,7 +963,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 112.1
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 34,
+   "fogo": false
   },
   {
    "id": "cida-valcanaia-cidavalcanaia",
@@ -988,7 +1030,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 108.0
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 98,
+   "fogo": false
   },
   {
    "id": "luiz-guedes-advogandocontrabancos",
@@ -1053,7 +1098,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 81.6
-   }
+   },
+   "tema": "Finanças e direito",
+   "idade_dias": 56,
+   "fogo": false
   },
   {
    "id": "trilha-kids-educacao-missaovoltaaomundo",
@@ -1118,7 +1166,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 80.5
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 58,
+   "fogo": false
   },
   {
    "id": "mundo-pequeno-genio-mundopequenogenio",
@@ -1183,7 +1234,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 80.1
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 161,
+   "fogo": false
   },
   {
    "id": "guto-magalhaes-gmstarter",
@@ -1247,7 +1301,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 71.4
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 22,
+   "fogo": true
   },
   {
    "id": "elite-stl-elitestl",
@@ -1313,7 +1370,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 57.2
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 3,
+   "fogo": false
   },
   {
    "id": "leidy-cakes-leidycake",
@@ -1377,7 +1437,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 46.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 501,
+   "fogo": false
   },
   {
    "id": "brandaoo-raxo",
@@ -1443,7 +1506,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 44.8
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 299,
+   "fogo": false
   },
   {
    "id": "leandro-sampaio-codigodasduasrodas",
@@ -1507,7 +1573,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 32.0
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 5,
+   "fogo": true
   },
   {
    "id": "raio-x-financeiro-mayconcastro",
@@ -1571,7 +1640,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 31.8
-   }
+   },
+   "tema": "Finanças e direito",
+   "idade_dias": 214,
+   "fogo": false
   },
   {
    "id": "soro-da-magreza-segredo-insulina-quiz",
@@ -1638,7 +1710,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 25.0
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 167,
+   "fogo": false
   },
   {
    "id": "al1nesantiago-teteiaamigurumi",
@@ -1703,7 +1778,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": 6
-   }
+   },
+   "tema": "Artesanato",
+   "idade_dias": 19,
+   "fogo": false
   },
   {
    "id": "rafael-do-marketing-rafaeldomarketing",
@@ -1767,7 +1845,10 @@
     ],
     "acao": "Ganhando tração. Prioridade para modelar agora.",
     "momento": -2.5
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 15,
+   "fogo": false
   },
   {
    "id": "bjjprotech-bjjprotech",
@@ -1833,7 +1914,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 67.2
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 83,
+   "fogo": false
   },
   {
    "id": "salao-das-violas-afonso-villasanti-salaodasviolas",
@@ -1897,7 +1981,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 26.2
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": 433,
+   "fogo": false
   },
   {
    "id": "nutricionista-carolina-caldas-carolcaldasnutri",
@@ -1962,7 +2049,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 25.1
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 1,
+   "fogo": false
   },
   {
    "id": "saude-em-foco-gestaosobpressao",
@@ -2026,7 +2116,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 24.0
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 36,
+   "fogo": false
   },
   {
    "id": "thayna-oliveira-doceria-aplicativodocelucro",
@@ -2091,7 +2184,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 24.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 20,
+   "fogo": true
   },
   {
    "id": "vida-de-tecnico-viverdeinformatica",
@@ -2155,7 +2251,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 20.7
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 58,
+   "fogo": false
   },
   {
    "id": "ingles-fluente-universidadebilingue",
@@ -2220,7 +2319,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 20.0
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": 173,
+   "fogo": false
   },
   {
    "id": "arab-clean-pack-centroperfumaria",
@@ -2284,7 +2386,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 20.0
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 144,
+   "fogo": false
   },
   {
    "id": "g-bordados-gbordados",
@@ -2348,7 +2453,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 18.3
-   }
+   },
+   "tema": "Artesanato",
+   "idade_dias": 112,
+   "fogo": false
   },
   {
    "id": "fia-black-fiablack",
@@ -2412,7 +2520,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 16.3
-   }
+   },
+   "tema": "Finanças e direito",
+   "idade_dias": 183,
+   "fogo": false
   },
   {
    "id": "inovaba-inovaba",
@@ -2476,7 +2587,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 15.8
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 196,
+   "fogo": false
   },
   {
    "id": "instituto-valorize-institutovalorize",
@@ -2541,7 +2655,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 12
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 207,
+   "fogo": false
   },
   {
    "id": "widom-widom",
@@ -2606,7 +2723,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 6.8
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 477,
+   "fogo": false
   },
   {
    "id": "saude-plena-e-integral-tdah-kit-completo",
@@ -2674,7 +2794,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 4
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 121,
+   "fogo": false
   },
   {
    "id": "helena-emerick-abaurre-com-comunidade-de-aprovados-comunidadeaprovados",
@@ -2738,7 +2861,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 4
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": 50,
+   "fogo": false
   },
   {
    "id": "eletricista-pro-app",
@@ -2803,7 +2929,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 2.9
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 119,
+   "fogo": false
   },
   {
    "id": "fabiana-bertotti-fabianabertotti",
@@ -2869,7 +2998,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": 305,
+   "fogo": false
   },
   {
    "id": "libras-facil-com-renata-domingues-libraspro",
@@ -2933,7 +3065,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": 388,
+   "fogo": false
   },
   {
    "id": "juliana-celeiro-makeup-maquiagemsofisticada",
@@ -2997,7 +3132,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 123,
+   "fogo": false
   },
   {
    "id": "rabiscos-iniciais-rabiscosiniciais",
@@ -3061,7 +3199,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 70,
+   "fogo": false
   },
   {
    "id": "menopausa-40-primeiroeu",
@@ -3125,7 +3266,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 92,
+   "fogo": false
   },
   {
    "id": "projeto-genio-brasil-projetogeniobrasil",
@@ -3191,7 +3335,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 164,
+   "fogo": false
   },
   {
    "id": "irmas-a-cozinha-irmasacozinha",
@@ -3256,7 +3403,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 40,
+   "fogo": false
   },
   {
    "id": "matheus-carvalho-obrigadeiroperfeito",
@@ -3321,7 +3471,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 421,
+   "fogo": false
   },
   {
    "id": "daniel-rezende-lp",
@@ -3385,7 +3538,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 53,
+   "fogo": false
   },
   {
    "id": "autor-douglas-rodrigues-onderenasceoamor",
@@ -3449,7 +3605,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Outros",
+   "idade_dias": 200,
+   "fogo": false
   },
   {
    "id": "my-feed-premium-myfeedpremium",
@@ -3513,7 +3672,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": 0
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 284,
+   "fogo": false
   },
   {
    "id": "cenat-cenatsaudemental",
@@ -3578,7 +3740,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -3.7
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 252,
+   "fogo": false
   },
   {
    "id": "vida-de-radiologista-lp",
@@ -3642,7 +3807,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -6.0
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 30,
+   "fogo": false
   },
   {
    "id": "telma-cristina-confeiteira-telmacristina",
@@ -3706,7 +3874,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -7.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 22,
+   "fogo": false
   },
   {
    "id": "fernandes-freitas-advogados-associados-priscilafernandesadv",
@@ -3771,7 +3942,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -7.5
-   }
+   },
+   "tema": "Finanças e direito",
+   "idade_dias": 197,
+   "fogo": false
   },
   {
    "id": "professora-grasiela-cabral-grasielacabral",
@@ -3836,7 +4010,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -10.5
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": 96,
+   "fogo": false
   },
   {
    "id": "curso-de-energia-solar-online-manualsolar",
@@ -3902,7 +4079,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -11.7
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 166,
+   "fogo": false
   },
   {
    "id": "mimarie-mimarie",
@@ -3967,7 +4147,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -12.0
-   }
+   },
+   "tema": "Artesanato",
+   "idade_dias": 77,
+   "fogo": false
   },
   {
    "id": "universo-das-dinamicas-atividade-cursiva",
@@ -4033,7 +4216,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -12.5
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 194,
+   "fogo": false
   },
   {
    "id": "prof-luana-rodrigues-profluanarodrigues",
@@ -4098,7 +4284,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -15.9
-   }
+   },
+   "tema": "Infantil e família",
+   "idade_dias": 41,
+   "fogo": false
   },
   {
    "id": "adega-digital-adegadigital",
@@ -4162,7 +4351,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -19.1
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 53,
+   "fogo": false
   },
   {
    "id": "geomesmo-connected-page-geomesmo",
@@ -4226,7 +4418,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -20.0
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 196,
+   "fogo": false
   },
   {
    "id": "debora-zago-hair-deborazagohair",
@@ -4291,7 +4486,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -22.0
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 194,
+   "fogo": false
   },
   {
    "id": "powerbots-eletric",
@@ -4355,7 +4553,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -25.0
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 95,
+   "fogo": false
   },
   {
    "id": "ionara-ionararibeiro",
@@ -4419,7 +4620,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -31.2
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 41,
+   "fogo": false
   },
   {
    "id": "fabiana-alves-resultsengine",
@@ -4484,7 +4688,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -32.4
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 52,
+   "fogo": false
   },
   {
    "id": "matheus-o-silva-psicologo-curso",
@@ -4548,7 +4755,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -33.3
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 762,
+   "fogo": false
   },
   {
    "id": "ana-paula-pujol-inlead",
@@ -4612,7 +4822,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -33.3
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 62,
+   "fogo": false
   },
   {
    "id": "joao-gestao-de-delivery-calculadoraparadelivery",
@@ -4676,7 +4889,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -33.3
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 16,
+   "fogo": false
   },
   {
    "id": "organize-com-ju-organizecomju",
@@ -4742,7 +4958,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -40.7
-   }
+   },
+   "tema": "Outros",
+   "idade_dias": 4,
+   "fogo": false
   },
   {
    "id": "leandro-magalhaes-hofacil",
@@ -4807,7 +5026,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -41.0
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 155,
+   "fogo": false
   },
   {
    "id": "rafael-de-abreu-psi-institutopsicologiatomista",
@@ -4873,7 +5095,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -45.2
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 42,
+   "fogo": false
   },
   {
    "id": "sal-de-cura-saldecura",
@@ -4938,7 +5163,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -51.5
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 7,
+   "fogo": false
   },
   {
    "id": "thaise-cruz-lp",
@@ -5003,7 +5231,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -55.3
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 24,
+   "fogo": false
   },
   {
    "id": "avora-ai-skills",
@@ -5070,7 +5301,10 @@
     ],
     "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
     "momento": -55.4
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 125,
+   "fogo": false
   },
   {
    "id": "lm-cakes-guara-ebook",
@@ -5134,7 +5368,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -36.8
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 31,
+   "fogo": false
   },
   {
    "id": "acessibilidade-aplicada-ebook",
@@ -5198,7 +5435,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -42.9
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 165,
+   "fogo": false
   },
   {
    "id": "eduardo-lopes-livro",
@@ -5263,7 +5503,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -45.4
-   }
+   },
+   "tema": "Finanças e direito",
+   "idade_dias": 135,
+   "fogo": false
   },
   {
    "id": "dance-fit-dancefit-seal",
@@ -5328,7 +5571,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -50.0
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 85,
+   "fogo": false
   },
   {
    "id": "fono-andrea-paz-ebooktan",
@@ -5392,7 +5638,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -53.6
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 35,
+   "fogo": false
   },
   {
    "id": "angel-cakes-cursosangelcakes",
@@ -5456,7 +5705,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -53.8
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 26,
+   "fogo": false
   },
   {
    "id": "incantato-incantatoeducacao",
@@ -5520,7 +5772,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -56.3
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": 28,
+   "fogo": false
   },
   {
    "id": "fontourabruu-picolegourmet2",
@@ -5585,7 +5840,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -57.1
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 122,
+   "fogo": false
   },
   {
    "id": "suellen-rodrigues-escolainglesa",
@@ -5649,7 +5907,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -60.0
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": 25,
+   "fogo": false
   },
   {
    "id": "escola-boulevard-educacao-ead-escolaboulevard",
@@ -5713,7 +5974,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -62.7
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 0,
+   "fogo": false
   },
   {
    "id": "conserto-de-roupas-na-pratica-carinemartins",
@@ -5778,7 +6042,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -64.7
-   }
+   },
+   "tema": "Artesanato",
+   "idade_dias": 97,
+   "fogo": false
   },
   {
    "id": "anthony-conde-pro",
@@ -5842,7 +6109,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -66.7
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 26,
+   "fogo": false
   },
   {
    "id": "aline-custodio-penteados-alinecustodio",
@@ -5906,7 +6176,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -67.9
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 20,
+   "fogo": false
   },
   {
    "id": "ester-caiafa-consultora-sanitaria-estetica",
@@ -5970,7 +6243,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -70.8
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 64,
+   "fogo": false
   },
   {
    "id": "laercio-cortess-laercioprotese",
@@ -6034,7 +6310,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -75.0
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": 60,
+   "fogo": false
   },
   {
    "id": "mr-saiz3n-saizenschool",
@@ -6098,7 +6377,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -78.6
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 315,
+   "fogo": false
   },
   {
    "id": "crio-bh-criobh",
@@ -6162,7 +6444,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -88.0
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 4,
+   "fogo": false
   },
   {
    "id": "fpa-na-pratica-claudeparacontroladoria",
@@ -6226,7 +6511,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -91.3
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 76,
+   "fogo": false
   },
   {
    "id": "gabriel-roberto-i-copywriter-ocopyquevende",
@@ -6286,7 +6574,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "tec-motos-tecperfomance",
@@ -6346,7 +6637,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "dr-marcio-martins-site",
@@ -6406,7 +6700,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "formula-das-chaves-formuladaschaves",
@@ -6466,7 +6763,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "london-international-pack-londonlasaro",
@@ -6526,7 +6826,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "pet-fit-confeitaria-ebook-petfitconfeitaria",
@@ -6586,7 +6889,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "elaine-cristina-teixeira-de-souza-casais",
@@ -6646,7 +6952,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Outros",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "red-foot-chefxuxa",
@@ -6706,7 +7015,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "scorevin-regularizacao-de-credito-scorevin",
@@ -6766,7 +7078,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Finanças e direito",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "educare-cursos-educarecursosead",
@@ -6826,7 +7141,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Saúde e psicologia",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "dra-monica-couto-facehubacademy",
@@ -6886,7 +7204,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Beleza e estética",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "thallius-moraes-com-esquadrao-de-elite-500questoestrt",
@@ -6947,7 +7268,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Estudos e idiomas",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "studio-digital-moventi",
@@ -7007,7 +7331,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "alimentacao-sem-gluten-blackfestival1000",
@@ -7068,7 +7395,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "ceia-de-natal-economica-2026-natal-economico-gamma",
@@ -7129,7 +7459,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "cleidemar-bolos-e-doces-recheionoponto",
@@ -7190,7 +7523,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": null,
+   "fogo": false
   },
   {
    "id": "estudio-migra-agentemigra",
@@ -7250,7 +7586,10 @@
     ],
     "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
     "momento": -100.0
-   }
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": null,
+   "fogo": false
   }
  ]
 }

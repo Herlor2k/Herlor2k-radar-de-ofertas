@@ -46,6 +46,29 @@ def carregar_coletas():
     return coletas
 
 
+TEMAS = [  # (tema, palavras do nicho), na ordem em que são testadas
+    ("Artesanato", r"bordado|amigurumi|costura|perfumaria artesanal|croch"),
+    ("Culinária e confeitaria", r"confeitaria|bolo|doce|receita|charcutaria|churrasco|drink|brownie|picol|delivery|brigadeiro"),
+    ("Infantil e família", r"alfabetiza|infantil|maternidade|tdah|criança"),
+    ("Beleza e estética", r"beleza|maquiagem|cabeleireir|barbearia|harmoniza|estética|perfume|penteado|unha|cílio"),
+    ("Fitness e emagrecimento", r"emagrec|muscula|treino|corrida|beach tennis|jiu|menopausa|dieta"),
+    ("Saúde e psicologia", r"psicolog|saúde|fonoaudio|radiolog|nutri|odontolog|terapia|massoterap|enfermag"),
+    ("IA e tecnologia", r"\bia\b|informática|impressão 3d|programa"),
+    ("Marketing e vendas", r"marketing|copywriting|tráfego|social media|instagram|branding|vídeo|instrutores|vendas"),
+    ("Profissões técnicas", r"eletric|elétrica|energia solar|chaveiro|construção|arquitetura|carreira|contabilidade|segurança do trabalho|pilotagem|mecânic"),
+    ("Finanças e direito", r"investiment|crédito|direito|finanças|advoga"),
+    ("Estudos e idiomas", r"inglês|libras|concurso|oratória|música|viola|idioma|espanhol"),
+]
+
+
+def tema_do_nicho(nicho):
+    n = (nicho or "").lower()
+    for tema, padrao in TEMAS:
+        if re.search(padrao, n):
+            return tema
+    return "Outros"
+
+
 def pct(a, b):
     if b in (None, 0) or a is None:
         return None
@@ -195,6 +218,25 @@ def main():
         if atual and atual["d"] != hoje:
             o["diag"]["pontos"].insert(0, f"Última leitura em {fmt(atual['d'])}: a oferta não foi checada depois disso.")
         ofertas.append(o)
+
+    # temas com poucas ofertas vão para "Outros"
+    cont = {}
+    for o in ofertas:
+        o["tema"] = tema_do_nicho(o["nicho"]); cont[o["tema"]] = cont.get(o["tema"], 0) + 1
+    for o in ofertas:
+        if cont[o["tema"]] < 3:
+            o["tema"] = "Outros"
+
+    # 🔥 escalando de verdade: 1 anunciante, anúncio ativo mais antigo com menos de 30 dias e anúncios crescendo
+    for o in ofertas:
+        a, d = o["atual"], o["diag"]
+        idade = None
+        if a and a.get("oldest"):
+            idade = (datetime.strptime(a["d"], "%Y-%m-%d") - datetime.strptime(a["oldest"], "%Y-%m-%d")).days
+        o["idade_dias"] = idade
+        o["fogo"] = bool(a and a.get("anunciantes") is not None and a["anunciantes"] < 2 and a.get("ativos")
+                         and idade is not None and idade < 30
+                         and d["ref"] and d["ref"]["ativos"] is not None and a["ativos"] > d["ref"]["ativos"])
 
     ordem = {"Escalando": 0, "Estagnada": 1, "Morrendo": 2, "Sem leitura": 3}
     ofertas.sort(key=lambda o: (ordem[o["diag"]["status"]], -o["diag"]["momento"]))

@@ -2,7 +2,7 @@
   const app = document.getElementById('app');
   const tip = document.getElementById('tip');
   let DADOS = null;
-  const estado = { filtro: null, busca: '', ordem: 'status', pasta: 'radar' };
+  const estado = { filtro: null, busca: '', ordem: 'status', pasta: 'radar', tema: null, fogo: false };
   let MARC = { estrela: {}, ignorada: {} };
   let SO_LEITURA = false;
   const marcada = (o, t) => !!MARC[t][o.dominio];
@@ -42,6 +42,7 @@
     MARC = antes; rota();
   }
 
+  const IGNORAR = `<svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M6 18L18 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>`;
   const ESTRELA = (on) => `<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4L2.8 9.5l6.4-.8z" fill="${on ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
 
   const ICONE = { 'Escalando': '▲', 'Estagnada': '■', 'Morrendo': '▼', 'Sem leitura': '?' };
@@ -75,7 +76,11 @@
 
   /* ---------- lista ---------- */
   function lista() {
-    const daPasta = DADOS.ofertas.filter(o => naPasta(o, estado.pasta));
+    const daPastaTodas = DADOS.ofertas.filter(o => naPasta(o, estado.pasta));
+    const daPasta = daPastaTodas.filter(o => (!estado.tema || o.tema === estado.tema) && (!estado.fogo || o.fogo));
+    const temas = {}; daPastaTodas.forEach(o => temas[o.tema] = (temas[o.tema] || 0) + 1);
+    const listaTemas = Object.entries(temas).sort((a, b) => (a[0] === 'Outros') - (b[0] === 'Outros') || b[1] - a[1]);
+    const nFogo = daPastaTodas.filter(o => o.fogo && (!estado.tema || o.tema === estado.tema)).length;
     const c = {}; daPasta.forEach(o => c[o.diag.status] = (c[o.diag.status] || 0) + 1);
     const nP = p => DADOS.ofertas.filter(o => naPasta(o, p)).length;
     const abas = [['radar', 'Radar'], ['estrela', '★ Com estrela'], ['ignorada', 'Ignoradas']].map(([k, n]) =>
@@ -93,7 +98,12 @@
         <button class="chip" data-f="" aria-pressed="${!estado.filtro}"><div class="rot">${legenda}</div><div class="val num">${daPasta.length}</div></button>
         ${chips}
       </section>
+      <div class="temas" role="group" aria-label="Filtrar por tema">
+        <button class="tema" data-t="" aria-pressed="${!estado.tema}">Todos os temas</button>
+        ${listaTemas.map(([t, n]) => `<button class="tema" data-t="${esc(t)}" aria-pressed="${estado.tema === t}">${esc(t)} <span class="num">${n}</span></button>`).join('')}
+      </div>
       <div class="ferramentas">
+        <button class="fogo" aria-pressed="${estado.fogo}" title="1 anunciante, anúncio ativo mais antigo com menos de 30 dias e anúncios crescendo">🔥 Escalando de verdade <span class="num">${nFogo}</span></button>
         <input class="busca" type="search" placeholder="Buscar anunciante, nicho ou domínio" value="${esc(estado.busca)}" aria-label="Buscar">
         <select class="ord" aria-label="Ordenar">
           <option value="status">Ordenar: status</option>
@@ -107,6 +117,8 @@
     app.querySelector('.ord').value = estado.ordem;
     app.querySelectorAll('.chip').forEach(b => b.onclick = () => { estado.filtro = b.dataset.f || null; lista(); });
     app.querySelectorAll('.aba').forEach(b => b.onclick = () => { estado.pasta = b.dataset.p; estado.filtro = null; lista(); });
+    app.querySelectorAll('.tema').forEach(b => b.onclick = () => { estado.tema = b.dataset.t || null; lista(); });
+    app.querySelector('.fogo').onclick = () => { estado.fogo = !estado.fogo; lista(); };
     const busca = app.querySelector('.busca');
     busca.oninput = () => { estado.busca = busca.value; linhas(); };
     app.querySelector('.ord').onchange = e => { estado.ordem = e.target.value; linhas(); };
@@ -115,7 +127,7 @@
 
   function linhas() {
     const q = estado.busca.trim().toLowerCase();
-    let os = DADOS.ofertas.filter(o => naPasta(o, estado.pasta) && (!estado.filtro || o.diag.status === estado.filtro) &&
+    let os = DADOS.ofertas.filter(o => naPasta(o, estado.pasta) && (!estado.tema || o.tema === estado.tema) && (!estado.fogo || o.fogo) && (!estado.filtro || o.diag.status === estado.filtro) &&
       (!q || (o.anunciante + ' ' + o.nicho + ' ' + o.dominio).toLowerCase().includes(q)));
     const at = o => o.atual?.ativos ?? -1;
     const vr = o => o.diag.var ?? 0;
@@ -127,16 +139,17 @@
     const vazio = (!estado.busca && !estado.filtro && estado.pasta === 'estrela') ? 'Nenhuma oferta com estrela ainda. Clique na estrela ao lado de uma oferta para salvar aqui.'
       : (!estado.busca && !estado.filtro && estado.pasta === 'ignorada') ? 'Nenhuma oferta ignorada.' : 'Nenhuma oferta encontrada.';
     ul.innerHTML = os.length ? os.map(o => `
-      <li class="item">${estado.pasta === 'ignorada'
+      <li class="item"><div class="marcas">${estado.pasta === 'ignorada'
         ? `<button class="marca-btn restaurar" data-d="${esc(o.dominio)}" title="Voltar a acompanhar" aria-label="Voltar a acompanhar ${esc(o.anunciante)}">↺</button>`
-        : `<button class="marca-btn estrela ${marcada(o, 'estrela') ? 'on' : ''}" data-d="${esc(o.dominio)}" aria-pressed="${marcada(o, 'estrela')}" aria-label="${marcada(o, 'estrela') ? 'Tirar estrela de' : 'Dar estrela para'} ${esc(o.anunciante)}">${ESTRELA(marcada(o, 'estrela'))}</button>`}
+        : `<button class="marca-btn estrela ${marcada(o, 'estrela') ? 'on' : ''}" data-d="${esc(o.dominio)}" aria-pressed="${marcada(o, 'estrela')}" title="${marcada(o, 'estrela') ? 'Tirar estrela' : 'Dar estrela'}" aria-label="${marcada(o, 'estrela') ? 'Tirar estrela de' : 'Dar estrela para'} ${esc(o.anunciante)}">${ESTRELA(marcada(o, 'estrela'))}</button><button class="marca-btn ignorar" data-d="${esc(o.dominio)}" title="Ignorar: sai da busca diária" aria-label="Ignorar ${esc(o.anunciante)}">${IGNORAR}</button>`}</div>
         <a class="linha" href="#/oferta/${o.id}">
-        <div style="min-width:0"><div class="nome">${esc(o.anunciante)}</div><div class="nicho">${esc(o.nicho)}</div></div>
+        <div style="min-width:0"><div class="nome">${o.fogo ? '<span title="Escalando de verdade">🔥</span> ' : ''}${esc(o.anunciante)}</div><div class="nicho">${esc(o.nicho)}</div></div>
         ${badge(o.diag.status)}
         ${sparkline(o.serie)}
         <div class="ativos"><b class="num">${o.atual?.ativos ?? '—'}</b> <span style="color:var(--muted);font-size:13px">anúncios</span>${variacao(o)}</div>
       </a></li>`).join('') : `<li class="vazio">${vazio}</li>`;
     ul.querySelectorAll('.estrela').forEach(b => b.onclick = () => marcar(b.dataset.d, 'estrela', b.getAttribute('aria-pressed') !== 'true'));
+    ul.querySelectorAll('.ignorar').forEach(b => b.onclick = () => marcar(b.dataset.d, 'ignorada', true));
     ul.querySelectorAll('.restaurar').forEach(b => b.onclick = () => marcar(b.dataset.d, 'ignorada', false));
   }
 
@@ -193,7 +206,7 @@
     app.innerHTML = `
       <a class="voltar" href="#/">← Voltar à lista</a>
       <div class="cab">
-        <div><h1>${esc(o.anunciante)}</h1><div class="sub">${esc(o.nicho)} · <span class="num" style="font-size:13px">${esc(o.dominio)}</span></div></div>
+        <div><h1>${esc(o.anunciante)}</h1><div class="sub">${o.fogo ? '🔥 ' : ''}${esc(o.tema)} › ${esc(o.nicho)} · <span class="num" style="font-size:13px">${esc(o.dominio)}</span></div></div>
         <div class="acoes">
           ${badge(o.diag.status)}
           ${marcada(o, 'ignorada') ? '' : `<button class="btn-acao ${marcada(o, 'estrela') ? 'on' : ''}" id="b-estrela" aria-pressed="${marcada(o, 'estrela')}">${ESTRELA(marcada(o, 'estrela'))}${marcada(o, 'estrela') ? 'Com estrela' : 'Dar estrela'}</button>`}
