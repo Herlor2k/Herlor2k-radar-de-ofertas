@@ -1,5 +1,29 @@
 [
  {
+  "d": "2026-11-12",
+  "dominio": "rafaeldomarketing.com.br",
+  "id": "rafael-do-marketing-rafaeldomarketing",
+  "anunciante": "Rafael do Marketing",
+  "tipo": "fogo",
+  "texto": "Entrou no 🔥: 9 anúncios, 1 anunciante, anúncio mais antigo com 17 dias."
+ },
+ {
+  "d": "2026-11-12",
+  "dominio": "aisnemorelli.com.br",
+  "id": "aisne-morelli-aisnemorelli",
+  "anunciante": "Aisne morelli",
+  "tipo": "anunciantes",
+  "texto": "Mais gente rodando o domínio: 0 → 1 anunciantes."
+ },
+ {
+  "d": "2026-11-12",
+  "dominio": "ebook.acessibilidadearquitetonica.com",
+  "id": "acessibilidade-aplicada-ebook",
+  "anunciante": "Acessibilidade Aplicada",
+  "tipo": "pagina",
+  "texto": "Página de vendas mudou a headline."
+ },
+ {
   "d": "2026-11-11",
   "dominio": "nucleoedifica.com.br",
   "id": "renato-edifica-construcoes-e-reformas-nucleoedifica",
