@@ -55,89 +55,6 @@
  ],
  "ofertas": [
   {
-   "id": "luana-oliveira-as365receitascheflu",
-   "anunciante": "Luana Oliveira",
-   "nicho": "Receitas sem açúcar, glúten e lactose",
-   "dominio": "as365receitascheflu.lovable.app",
-   "preco": "R$10",
-   "angulo": "Receitas restritivas que parecem comida comum, como bolo, pizza e lasanha",
-   "nota": "5",
-   "justificativa": "2+2+0+0+1 = 5. 28 anúncios ativos visíveis, 127 dias no ar, 11 outros anunciantes, origem R$10, entregável em PDF.",
-   "palavra": "lovable",
-   "status_planilha": "Novo",
-   "data_mineracao": "2026-10-19",
-   "dias_no_ar_mineracao": 127,
-   "link_anuncio": "https://www.facebook.com/ads/library/?id=1351412633793087",
-   "pagina": "https://as365receitascheflu.lovable.app/",
-   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=as365receitascheflu.lovable.app",
-   "serie": [
-    {
-     "d": "2026-10-19",
-     "ativos": 28,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    {
-     "d": "2026-11-10",
-     "ativos": 89,
-     "anunciantes": 1,
-     "n7": 1,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-11",
-     "ativos": 92,
-     "anunciantes": 1,
-     "n7": 0,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-12",
-     "ativos": 6100,
-     "anunciantes": 1,
-     "n7": 0,
-     "fonte": "coleta"
-    }
-   ],
-   "atual": {
-    "d": "2026-11-12",
-    "ativos": 6100,
-    "anunciantes": 1,
-    "adv": {
-     "Luana Oliveira": 30
-    },
-    "oldest": "2026-06-14",
-    "n1": 0,
-    "n7": 0,
-    "amostra": 30
-   },
-   "diag": {
-    "status": "Escalando",
-    "var": 216.8571,
-    "ref": {
-     "d": "2026-10-19",
-     "ativos": 28,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    "pontos": [
-     "Anúncios ativos: 28 em 19/10/2026 → 6100 hoje (+21686%).",
-     "Nenhum anúncio novo nos últimos 7 dias: só criativos antigos rodando.",
-     "O anúncio ativo mais antigo roda desde 14/06/2026 (151 dias): criativo validado.",
-     "1 anunciante rodando esse domínio: Luana Oliveira (30).",
-     "Anunciantes contados em 30 dos 6100 anúncios (a Biblioteca carrega os anúncios aos poucos).",
-     "Atenção: o número da planilha foi anotado como \"visíveis\" (contagem parcial), então a variação contra ele pode estar exagerada."
-    ],
-    "acao": "Ganhando tração. Prioridade para modelar agora.",
-    "momento": 21685.7
-   },
-   "tema": "Culinária e confeitaria",
-   "idade_dias": 151,
-   "fogo": false
-  },
-  {
    "id": "vitteam-vitteam",
    "anunciante": "VITTEAM",
    "nicho": "Beach tennis (treino)",
@@ -567,6 +484,88 @@
    "tema": "Profissões técnicas",
    "idade_dias": 6,
    "fogo": true
+  },
+  {
+   "id": "luana-oliveira-as365receitascheflu",
+   "anunciante": "Luana Oliveira",
+   "nicho": "Receitas sem açúcar, glúten e lactose",
+   "dominio": "as365receitascheflu.lovable.app",
+   "preco": "R$10",
+   "angulo": "Receitas restritivas que parecem comida comum, como bolo, pizza e lasanha",
+   "nota": "5",
+   "justificativa": "2+2+0+0+1 = 5. 28 anúncios ativos visíveis, 127 dias no ar, 11 outros anunciantes, origem R$10, entregável em PDF.",
+   "palavra": "lovable",
+   "status_planilha": "Novo",
+   "data_mineracao": "2026-10-19",
+   "dias_no_ar_mineracao": 127,
+   "link_anuncio": "https://www.facebook.com/ads/library/?id=1351412633793087",
+   "pagina": "https://as365receitascheflu.lovable.app/",
+   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=as365receitascheflu.lovable.app",
+   "serie": [
+    {
+     "d": "2026-10-19",
+     "ativos": 28,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    {
+     "d": "2026-11-10",
+     "ativos": 89,
+     "anunciantes": 1,
+     "n7": 1,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-11",
+     "ativos": 92,
+     "anunciantes": 1,
+     "n7": 0,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-12",
+     "ativos": 94,
+     "anunciantes": 1,
+     "n7": 43,
+     "fonte": "coleta"
+    }
+   ],
+   "atual": {
+    "d": "2026-11-12",
+    "ativos": 94,
+    "anunciantes": 1,
+    "adv": {
+     "Luana Oliveira": 94
+    },
+    "oldest": "2026-06-14",
+    "n1": 20,
+    "n7": 43,
+    "amostra": 94
+   },
+   "diag": {
+    "status": "Escalando",
+    "var": 2.3571,
+    "ref": {
+     "d": "2026-10-19",
+     "ativos": 28,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    "pontos": [
+     "Anúncios ativos: 28 em 19/10/2026 → 94 hoje (+236%).",
+     "43 anúncios novos subiram nos últimos 7 dias, 20 deles no último dia: o anunciante está testando criativos.",
+     "O anúncio ativo mais antigo roda desde 14/06/2026 (151 dias): criativo validado.",
+     "1 anunciante rodando esse domínio: Luana Oliveira (94).",
+     "Atenção: o número da planilha foi anotado como \"visíveis\" (contagem parcial), então a variação contra ele pode estar exagerada."
+    ],
+    "acao": "Ganhando tração. Prioridade para modelar agora.",
+    "momento": 321.7
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 151,
+   "fogo": false
   },
   {
    "id": "mineiro-das-vendas-trafego-pago-mineirodasvendas",
