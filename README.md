@@ -8,17 +8,19 @@ domínio e quantos criativos novos subiram, para dizer se a oferta está **escal
 Site estático (HTML + JS puro), sem build. Na Vercel: importar o repositório, framework
 "Other", sem comando de build, diretório raiz `/`.
 
-## Estrelas e ignoradas
-O site tem três pastas: **Radar** (tudo que é acompanhado), **★ Com estrela** e **Ignoradas**.
-Ofertas ignoradas saem da busca diária até voltarem a ser acompanhadas.
+## Marcações e área privada
+- `data/marcacoes.json` (público): estrela, ignorada e modelando (com as etapas).
+- `privado/dados.json` e `privado/minhas_coletas.json` (só com senha): anotações, links, resultados e seus domínios.
+  A pasta `privado/` não é publicada no site (`.vercelignore`); quem entrega esses dados é `api/marcacoes.js`, depois da senha.
+- Variáveis na Vercel: `GITHUB_TOKEN` (Contents: Read and write neste repositório) e `RADAR_SENHA`.
+- Marcar algo não dispara deploy (`vercel.json` ignora commits que só mexem em marcações ou em `privado/`).
 
-As marcações ficam em `data/marcacoes.json` e são gravadas pela função `api/marcacoes.js`.
-Para funcionar, configure na Vercel (Settings → Environment Variables) e faça um redeploy:
+## Telas
+Radar, Com estrela, Modelando, Ignoradas, Alertas, Ângulos e hooks, Minhas ofertas, comparador (até 3 ofertas)
+e a página da oferta com diagnóstico, raio-x dos criativos, raio-x da página de vendas, concorrência do nicho,
+anotações e a central de modelagem (etapas, links, meu domínio, resultados).
 
-- `GITHUB_TOKEN`: token *fine-grained* do GitHub com acesso só a este repositório e permissão **Contents: Read and write**.
-- `RADAR_SENHA`: uma senha qualquer. O site pede uma vez e guarda no navegador. Sem ela, qualquer pessoa com o link consegue marcar.
-
-Marcar uma oferta não dispara um novo deploy (`vercel.json` ignora commits que só mexem em `data/marcacoes.json`).
+O raio-x e a concorrência do nicho rodam para as ofertas prioritárias: modelando, com estrela e 🔥.
 
 ## Como funciona
 - `data/ofertas.json`: ofertas da planilha (aba OFERTAS), um domínio por oferta.

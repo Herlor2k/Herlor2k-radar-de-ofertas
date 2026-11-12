@@ -1,0 +1,692 @@
+{
+ "alinecustodio.com.br": {
+  "ganchos": {
+   "1643200990596635": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada.",
+   "1619530259208861": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada.",
+   "1972946964071508": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada.",
+   "1487993499916894": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada.",
+   "1508494687757780": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+  },
+  "criativos": [
+   {
+    "id": "1643200990596635",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+   },
+   {
+    "id": "1619530259208861",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+   },
+   {
+    "id": "1972946964071508",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+   },
+   {
+    "id": "1487993499916894",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+   },
+   {
+    "id": "1508494687757780",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+   }
+  ],
+  "criativos_em": "2026-11-11"
+ },
+ "ebook.acessibilidadearquitetonica.com": {
+  "ganchos": {
+   "962288990039240": "Chamada direta a arquitetos e engenheiros para o livro digital da norma, com âncora de R$67 por R$19,90.",
+   "1617649313111616": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90.",
+   "939937932414223": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90.",
+   "1009876371517482": "Chamada direta a arquitetos e engenheiros para o livro digital da norma, com âncora de R$67 por R$19,90."
+  },
+  "criativos": [
+   {
+    "id": "962288990039240",
+    "inicio": "2026-05-29",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Chamada direta a arquitetos e engenheiros para o livro digital da norma, com âncora de R$67 por R$19,90."
+   },
+   {
+    "id": "1617649313111616",
+    "inicio": "2026-06-09",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90."
+   },
+   {
+    "id": "939937932414223",
+    "inicio": "2026-06-09",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90."
+   },
+   {
+    "id": "1009876371517482",
+    "inicio": "2026-06-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Chamada direta a arquitetos e engenheiros para o livro digital da norma, com âncora de R$67 por R$19,90."
+   }
+  ],
+  "criativos_em": "2026-11-11",
+  "mudancas": [],
+  "pagina": {
+   "precos": [],
+   "ancora": null,
+   "bonus": null,
+   "garantia_dias": null,
+   "checkout": null,
+   "video": null,
+   "order_bump": null,
+   "formato": null,
+   "promessa": "Checklist visual com os 30 pontos da norma de acessibilidade que mais reprovam projetos.",
+   "obs": "A página carrega o conteúdo por script; preço e bônus não ficaram visíveis na leitura automática.",
+   "h1_hash": "ae1e62f7e07a",
+   "lida_em": "2026-11-11"
+  }
+ },
+ "nucleoedifica.com.br": {
+  "ganchos": {
+   "1103627682448283": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta.",
+   "1627491114937813": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta.",
+   "2191983348342426": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta.",
+   "1773525767780245": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta.",
+   "1127516383505122": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta.",
+   "2593173947825634": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta.",
+   "1656062626427813": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta.",
+   "2284315709078317": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+  },
+  "criativos": [
+   {
+    "id": "1103627682448283",
+    "inicio": "2026-11-06",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   },
+   {
+    "id": "1627491114937813",
+    "inicio": "2026-11-06",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   },
+   {
+    "id": "2191983348342426",
+    "inicio": "2026-11-06",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   },
+   {
+    "id": "1773525767780245",
+    "inicio": "2026-11-06",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   },
+   {
+    "id": "1127516383505122",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   },
+   {
+    "id": "2593173947825634",
+    "inicio": "2026-11-06",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   },
+   {
+    "id": "1656062626427813",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   },
+   {
+    "id": "2284315709078317",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+   }
+  ],
+  "criativos_em": "2026-11-11",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$67"
+   ],
+   "ancora": "R$200",
+   "bonus": 1,
+   "garantia_dias": 7,
+   "checkout": "Próprio (nucleoedifica.com.br)",
+   "video": false,
+   "order_bump": null,
+   "formato": "Curso em vídeo com 5 aulas e certificado",
+   "promessa": "Aprender a ler plantas e projetos de obra em poucos dias, sem precisar de formação.",
+   "h1_hash": "049d21781e1c",
+   "lida_em": "2026-11-11"
+  }
+ },
+ "mineirodasvendas.com.br": {
+  "ganchos": {
+   "1111646904962139": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday.",
+   "29997597529827957": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday.",
+   "1143985758488976": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday.",
+   "1643597037502097": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday.",
+   "1548911243728449": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday.",
+   "1833945271065505": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday.",
+   "1430950605255193": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday.",
+   "1150565374576623": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+  },
+  "criativos": [
+   {
+    "id": "1111646904962139",
+    "inicio": "2026-11-03",
+    "copias": 3,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+   },
+   {
+    "id": "29997597529827957",
+    "inicio": "2026-11-03",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+   },
+   {
+    "id": "1143985758488976",
+    "inicio": "2026-11-03",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+   },
+   {
+    "id": "1643597037502097",
+    "inicio": "2026-11-03",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+   },
+   {
+    "id": "1548911243728449",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+   },
+   {
+    "id": "1833945271065505",
+    "inicio": "2026-11-04",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+   },
+   {
+    "id": "1430950605255193",
+    "inicio": "2026-11-04",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+   },
+   {
+    "id": "1150565374576623",
+    "inicio": "2026-11-04",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+   }
+  ],
+  "criativos_em": "2026-11-11",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$97"
+   ],
+   "ancora": "R$2.329 (o banner do topo diz R$297)",
+   "bonus": 6,
+   "garantia_dias": 7,
+   "checkout": "clkdmg.site",
+   "video": null,
+   "order_bump": null,
+   "formato": "Curso online com acesso vitalício",
+   "promessa": "Usar tráfego pago com apoio de IA para ter lucro previsível, do iniciante ao avançado.",
+   "h1_hash": "bbe9e30a2296",
+   "lida_em": "2026-11-11"
+  }
+ },
+ "codigodasduasrodas.pages.dev": {
+  "ganchos": {
+   "1388111289819298": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
+   "1139173401839728": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
+   "1047768841669341": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
+   "1591491469391744": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
+   "2000643468007454": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
+   "2027586901214141": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
+   "1091794547018602": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
+   "1597662162116021": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+  },
+  "criativos": [
+   {
+    "id": "1388111289819298",
+    "inicio": "2026-11-05",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   },
+   {
+    "id": "1139173401839728",
+    "inicio": "2026-11-05",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   },
+   {
+    "id": "1047768841669341",
+    "inicio": "2026-11-05",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   },
+   {
+    "id": "1591491469391744",
+    "inicio": "2026-11-05",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   },
+   {
+    "id": "2000643468007454",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   },
+   {
+    "id": "2027586901214141",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   },
+   {
+    "id": "1091794547018602",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   },
+   {
+    "id": "1597662162116021",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+   }
+  ],
+  "criativos_em": "2026-11-11",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$47"
+   ],
+   "ancora": null,
+   "bonus": 4,
+   "garantia_dias": 7,
+   "checkout": "Hotmart",
+   "video": false,
+   "order_bump": null,
+   "formato": "Curso em vídeo com 5 módulos e mais de 20 aulas",
+   "promessa": "Dominar a moto em situações reais de trânsito para rodar com segurança, sem quedas e sem multas.",
+   "obs": "Tem vídeo de depoimento de aluno, mas não vídeo de vendas.",
+   "h1_hash": "aac8511f5213",
+   "lida_em": "2026-11-11"
+  }
+ },
+ "elitestl.online": {
+  "ganchos": {
+   "1800715351213300": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
+   "1494684472538560": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
+   "2131608247726930": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
+   "2300515717408675": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
+   "1442864198060092": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
+   "1177989457902719": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
+   "1155074557027844": "Mesmo pack, com abertura voltada a renda: fazer a impressora 3D virar fonte de dinheiro.",
+   "1592476116015392": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+  },
+  "criativos": [
+   {
+    "id": "1800715351213300",
+    "inicio": "2026-11-07",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   },
+   {
+    "id": "1494684472538560",
+    "inicio": "2026-11-07",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   },
+   {
+    "id": "2131608247726930",
+    "inicio": "2026-11-07",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   },
+   {
+    "id": "2300515717408675",
+    "inicio": "2026-11-07",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   },
+   {
+    "id": "1442864198060092",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   },
+   {
+    "id": "1177989457902719",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   },
+   {
+    "id": "1155074557027844",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Mesmo pack, com abertura voltada a renda: fazer a impressora 3D virar fonte de dinheiro."
+   },
+   {
+    "id": "1592476116015392",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   }
+  ],
+  "criativos_em": "2026-11-11",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$37,90",
+    "R$9,90"
+   ],
+   "ancora": "R$489,90 e R$189,90",
+   "bonus": 10,
+   "garantia_dias": 14,
+   "checkout": "primepay.store",
+   "video": false,
+   "order_bump": "Upsell na própria página: upgrade de plano por R$27,90",
+   "formato": "Biblioteca de arquivos STL com acesso por plataforma",
+   "promessa": "Ter um acervo grande de modelos 3D prontos para imprimir e vender, sem saber modelar.",
+   "h1_hash": "a97cf62b10e0",
+   "lida_em": "2026-11-11"
+  }
+ },
+ "gmstarter.orbitpages.online": {
+  "ganchos": {
+   "1680856273826236": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar.",
+   "2029058084473533": "Demanda crescente e falta de profissional qualificado: curso do zero para entrar na área.",
+   "2127243447891130": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar.",
+   "27263309806700888": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
+  },
+  "criativos": [
+   {
+    "id": "1680856273826236",
+    "inicio": "2026-10-19",
+    "copias": 3,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
+   },
+   {
+    "id": "2029058084473533",
+    "inicio": "2026-10-19",
+    "copias": 3,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Demanda crescente e falta de profissional qualificado: curso do zero para entrar na área."
+   },
+   {
+    "id": "2127243447891130",
+    "inicio": "2026-10-19",
+    "copias": 3,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
+   },
+   {
+    "id": "27263309806700888",
+    "inicio": "2026-10-21",
+    "copias": 3,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
+   }
+  ],
+  "criativos_em": "2026-11-11"
+ },
+ "aplicativodocelucro.lovable.app": {
+  "ganchos": {
+   "29225166317117993": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar.",
+   "1524048049530032": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar.",
+   "1077044161997354": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar.",
+   "1112505291571854": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar.",
+   "1820413052331884": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar.",
+   "1456269763138650": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar.",
+   "1631158895153095": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar.",
+   "1780631073652021": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+  },
+  "criativos": [
+   {
+    "id": "29225166317117993",
+    "inicio": "2026-10-21",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   },
+   {
+    "id": "1524048049530032",
+    "inicio": "2026-10-22",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   },
+   {
+    "id": "1077044161997354",
+    "inicio": "2026-10-27",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   },
+   {
+    "id": "1112505291571854",
+    "inicio": "2026-11-09",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   },
+   {
+    "id": "1820413052331884",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   },
+   {
+    "id": "1456269763138650",
+    "inicio": "2026-11-11",
+    "copias": 3,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   },
+   {
+    "id": "1631158895153095",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   },
+   {
+    "id": "1780631073652021",
+    "inicio": "2026-11-11",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+   }
+  ],
+  "criativos_em": "2026-11-11",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$47",
+    "R$97"
+   ],
+   "ancora": "R$197 e R$297",
+   "bonus": 10,
+   "garantia_dias": 7,
+   "checkout": "Eduzz",
+   "video": true,
+   "order_bump": "Dois planos: anual por R$47 e vitalício por R$97",
+   "formato": "Aplicativo web com guias em PDF",
+   "promessa": "Descobrir o preço certo dos doces sem prejuízo e sem planilha, num app que também organiza pedidos e finanças.",
+   "h1_hash": "fe684a20ce60",
+   "lida_em": "2026-11-11"
+  }
+ },
+ "fxtreinospro.com": {
+  "ganchos": {
+   "982996061550831": "Dúvida de quem chega na academia sem saber o que fazer: treinar no improviso atrapalha a evolução.",
+   "4592966217640736": "Dúvida de quem chega na academia sem saber o que fazer: treinar no improviso atrapalha a evolução."
+  },
+  "criativos": [
+   {
+    "id": "982996061550831",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Dúvida de quem chega na academia sem saber o que fazer: treinar no improviso atrapalha a evolução."
+   },
+   {
+    "id": "4592966217640736",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Dúvida de quem chega na academia sem saber o que fazer: treinar no improviso atrapalha a evolução."
+   }
+  ],
+  "criativos_em": "2026-11-11",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$27,90"
+   ],
+   "ancora": null,
+   "bonus": 27,
+   "garantia_dias": 7,
+   "checkout": "Kirvano",
+   "video": false,
+   "order_bump": null,
+   "formato": "Área de membros com treinos, vídeos e ebook",
+   "promessa": "Ter treinos e receitas fit no celular por pagamento único, para parar de treinar no improviso.",
+   "h1_hash": "a9d333b97c38",
+   "lida_em": "2026-11-11"
+  }
+ },
+ "aisnemorelli.com.br": {
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$47"
+   ],
+   "ancora": "R$260",
+   "bonus": 4,
+   "garantia_dias": null,
+   "checkout": "Hotmart",
+   "video": false,
+   "order_bump": null,
+   "formato": "Minicurso em vídeo com apostila e guias",
+   "promessa": "Aprender a fazer perfumes com segurança em cerca de uma hora, sem errar nem desperdiçar material.",
+   "h1_hash": "4d575f9fe3ff",
+   "lida_em": "2026-11-11"
+  }
+ }
+}

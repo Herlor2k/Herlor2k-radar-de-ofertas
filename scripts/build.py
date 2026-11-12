@@ -39,11 +39,56 @@ def biblioteca(q):
 
 
 def carregar_coletas():
-    coletas = {}
+    coletas, nichos = {}, {}
     for f in sorted(glob.glob(os.path.join(DATA, "coletas", "*.json"))):
         d = os.path.basename(f)[:-5]
-        coletas[d] = json.load(open(f, encoding="utf-8")).get("resultados", {})
-    return coletas
+        j = json.load(open(f, encoding="utf-8"))
+        coletas[d] = j.get("resultados", {}); nichos[d] = j.get("nichos", {})
+    return coletas, nichos
+
+
+def carregar(rel, padrao):
+    p = os.path.join(RAIZ, rel)
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else padrao
+
+
+def gerar_alertas(ofertas, hoje, marc):
+    """Compara a coleta de hoje com a anterior e acumula os avisos em data/alertas.json."""
+    estado = carregar("data/estado.json", {"fogo": {}})
+    antes = [d for d in sorted(estado["fogo"]) if d < hoje]
+    fogo_ontem = set(estado["fogo"][antes[-1]]) if antes else None
+    seguidas = set(marc.get("estrela", {})) | set(marc.get("modelando", {}))
+    novos = []
+    def add(o, tipo, texto):
+        novos.append({"d": hoje, "dominio": o["dominio"], "id": o["id"], "anunciante": o["anunciante"], "tipo": tipo, "texto": texto})
+    for o in ofertas:
+        if o["dominio"] in marc.get("ignorada", {}) or not o["atual"] or o["atual"]["d"] != hoje:
+            continue
+        if o["fogo"] and fogo_ontem is not None and o["dominio"] not in fogo_ontem:
+            add(o, "fogo", f"Entrou no 🔥: {o['atual']['ativos']} anúncios, 1 anunciante, anúncio mais antigo com {o['idade_dias']} dias.")
+        if o["dominio"] not in seguidas:
+            continue
+        col = [p for p in o["serie"] if p["fonte"] == "coleta" and p["ativos"] is not None]
+        if len(col) >= 2:
+            a, b = col[-2], col[-1]
+            if b["anunciantes"] is not None and a["anunciantes"] is not None and b["anunciantes"] > a["anunciantes"]:
+                add(o, "anunciantes", f"Mais gente rodando o domínio: {a['anunciantes']} → {b['anunciantes']} anunciantes.")
+            if a["ativos"] > 0 and b["ativos"] == 0:
+                add(o, "zerou", f"Zerou: tinha {a['ativos']} anúncios ativos e hoje não tem nenhum.")
+            elif a["ativos"] and abs(b["ativos"] - a["ativos"]) >= 5 and abs(b["ativos"] - a["ativos"]) / a["ativos"] >= 0.3:
+                sobe = b["ativos"] > a["ativos"]
+                add(o, "subiu" if sobe else "caiu", f"Anúncios ativos {'subiram' if sobe else 'caíram'} de {a['ativos']} para {b['ativos']} em um dia.")
+        for m in (o.get("raiox") or {}).get("mudancas", []):
+            if m["d"] == hoje:
+                add(o, "pagina", f"Página de vendas mudou o preço: {m['de']} → {m['para']}." if m["tipo"] == "preço" else "Página de vendas mudou a headline.")
+    estado["fogo"][hoje] = [o["dominio"] for o in ofertas if o["fogo"]]
+    estado["fogo"] = {d: estado["fogo"][d] for d in sorted(estado["fogo"])[-10:]}
+    json.dump(estado, open(os.path.join(DATA, "estado.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    limite = (datetime.strptime(hoje, "%Y-%m-%d") - timedelta(days=45)).strftime("%Y-%m-%d")
+    velhos = [a for a in carregar("data/alertas.json", []) if a["d"] >= limite and a["d"] != hoje]
+    todos = sorted(velhos + novos, key=lambda a: a["d"], reverse=True)
+    json.dump(todos, open(os.path.join(DATA, "alertas.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    return todos
 
 
 TEMAS = [  # (tema, palavras do nicho), na ordem em que são testadas
@@ -172,7 +217,10 @@ def diagnosticar(o, serie, atual, hoje):
 def main():
     base = json.load(open(os.path.join(DATA, "ofertas.json"), encoding="utf-8"))
     cols = base["colunas"]
-    coletas = carregar_coletas()
+    coletas, nichos = carregar_coletas()
+    raiox = carregar("data/raiox.json", {})
+    termos = carregar("data/consulta.json", {}).get("nicho", {})
+    marc = carregar("data/marcacoes.json", {})
     datas = sorted(coletas)
     hoje = datas[-1] if datas else date.today().isoformat()
 
@@ -213,6 +261,13 @@ def main():
         serie.sort(key=lambda x: (x["d"], x["fonte"] != "planilha"))
         o["serie"] = serie
         o["atual"] = atual
+        rx = raiox.get(dom)
+        if rx:
+            o["raiox"] = {k: rx[k] for k in ("criativos", "criativos_em", "pagina", "mudancas") if k in rx}
+        termo = termos.get(dom)
+        if termo:
+            o["nicho_busca"] = {"termo": termo, "link": biblioteca(termo),
+                                "serie": [{"d": d, **nichos[d][termo]} for d in datas if termo in nichos.get(d, {})]}
         dia_ref = atual["d"] if atual else hoje
         o["diag"] = diagnosticar(o, serie, atual, dia_ref)
         if atual and atual["d"] != hoje:
@@ -241,9 +296,10 @@ def main():
     ordem = {"Escalando": 0, "Estagnada": 1, "Morrendo": 2, "Sem leitura": 3}
     ofertas.sort(key=lambda o: (ordem[o["diag"]["status"]], -o["diag"]["momento"]))
     contagem = {k: sum(1 for o in ofertas if o["diag"]["status"] == k) for k in ordem}
-    out = {"atualizado_em": hoje, "coletas": datas, "contagem": contagem, "ofertas": ofertas}
+    alertas = gerar_alertas(ofertas, hoje, marc)
+    out = {"atualizado_em": hoje, "coletas": datas, "contagem": contagem, "alertas": alertas, "ofertas": ofertas}
     json.dump(out, open(os.path.join(DATA, "radar.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"{len(ofertas)} ofertas, coleta de {hoje}: {contagem}")
+    print(f"{len(ofertas)} ofertas, coleta de {hoje}: {contagem}; {sum(1 for a in alertas if a['d'] == hoje)} alertas hoje")
 
 
 if __name__ == "__main__":

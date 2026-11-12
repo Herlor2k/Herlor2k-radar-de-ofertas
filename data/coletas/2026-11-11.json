@@ -148,14 +148,14 @@
    "n7": 0
   },
   "nucleoedifica.com.br": {
-   "total": 44,
-   "amostra": 42,
+   "total": 29,
+   "amostra": 29,
    "adv": {
-    "Renato Edifica - Construções e Reformas.": 42
+    "Renato Edifica - Construções e Reformas.": 29
    },
    "oldest": "2026-11-06",
    "n1": 0,
-   "n7": 42
+   "n7": 29
   },
   "quiz.maridosperfumes.com.br": {
    "total": 73,
@@ -395,13 +395,13 @@
   },
   "mineirodasvendas.com.br": {
    "total": 67,
-   "amostra": 32,
+   "amostra": 80,
    "adv": {
-    "Mineiro das Vendas Tráfego Pago": 32
+    "Mineiro das Vendas Tráfego Pago": 80
    },
    "oldest": "2026-11-03",
    "n1": 0,
-   "n7": 16
+   "n7": 41
   },
   "rafaeldomarketing.com.br": {
    "total": 3,
@@ -462,12 +462,10 @@
    "n7": 0
   },
   "aisnemorelli.com.br": {
-   "total": 170,
-   "amostra": 116,
-   "adv": {
-    "Aisne morelli": 116
-   },
-   "oldest": "2026-10-21",
+   "total": 0,
+   "amostra": 0,
+   "adv": {},
+   "oldest": null,
    "n1": 0,
    "n7": 0
   },
@@ -597,14 +595,14 @@
    "n7": 0
   },
   "fxtreinospro.com": {
-   "total": 3,
-   "amostra": 3,
+   "total": 2,
+   "amostra": 2,
    "adv": {
-    "Fxtreinospro": 3
+    "Fxtreinospro": 2
    },
    "oldest": "2026-11-10",
-   "n1": 3,
-   "n7": 3
+   "n1": 2,
+   "n7": 2
   },
   "chefxuxa.com.br": {
    "total": 0,
@@ -904,14 +902,14 @@
    "n7": 9
   },
   "aplicativodocelucro.lovable.app": {
-   "total": 8,
-   "amostra": 8,
+   "total": 10,
+   "amostra": 10,
    "adv": {
-    "Thayná Oliveira Doceria": 8
+    "Thayná Oliveira Doceria": 10
    },
    "oldest": "2026-10-21",
-   "n1": 4,
-   "n7": 5
+   "n1": 6,
+   "n7": 7
   },
   "natal-economico-gamma.vercel.app": {
    "total": 0,
@@ -980,13 +978,13 @@
   },
   "elitestl.online": {
    "total": 49,
-   "amostra": 30,
+   "amostra": 53,
    "adv": {
-    "Elite STL": 30
+    "Elite STL": 53
    },
    "oldest": "2026-11-07",
-   "n1": 0,
-   "n7": 30
+   "n1": 9,
+   "n7": 53
   },
   "jtpsi.com.br": {
    "total": 73,
@@ -1218,6 +1216,58 @@
    "oldest": "2026-09-30",
    "n1": 0,
    "n7": 0
+  }
+ },
+ "nichos": {
+  "curso penteados": {
+   "total": 350,
+   "amostra": 81,
+   "anunciantes": 46
+  },
+  "curso perfumaria artesanal": {
+   "total": 6,
+   "amostra": 5,
+   "anunciantes": 3
+  },
+  "nbr 9050": {
+   "total": 67,
+   "amostra": 21,
+   "anunciantes": 11
+  },
+  "leitura de planta": {
+   "total": 280,
+   "amostra": 32,
+   "anunciantes": 23
+  },
+  "curso tráfego pago": {
+   "total": 2700,
+   "amostra": 30,
+   "anunciantes": 19
+  },
+  "curso pilotagem moto": {
+   "total": 160,
+   "amostra": 22,
+   "anunciantes": 17
+  },
+  "pack stl": {
+   "total": 680,
+   "amostra": 42,
+   "anunciantes": 11
+  },
+  "curso prótese capilar": {
+   "total": 230,
+   "amostra": 30,
+   "anunciantes": 12
+  },
+  "precificação confeitaria": {
+   "total": 660,
+   "amostra": 31,
+   "anunciantes": 16
+  },
+  "treinos prontos": {
+   "total": 690,
+   "amostra": 37,
+   "anunciantes": 21
   }
  }
 }

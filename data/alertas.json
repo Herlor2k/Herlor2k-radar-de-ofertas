@@ -1,0 +1,18 @@
+[
+ {
+  "d": "2026-11-11",
+  "dominio": "nucleoedifica.com.br",
+  "id": "renato-edifica-construcoes-e-reformas-nucleoedifica",
+  "anunciante": "Renato Edifica - Construções e Reformas.",
+  "tipo": "caiu",
+  "texto": "Anúncios ativos caíram de 44 para 29 em um dia."
+ },
+ {
+  "d": "2026-11-11",
+  "dominio": "aisnemorelli.com.br",
+  "id": "aisne-morelli-aisnemorelli",
+  "anunciante": "Aisne morelli",
+  "tipo": "zerou",
+  "texto": "Zerou: tinha 170 anúncios ativos e hoje não tem nenhum."
+ }
+]

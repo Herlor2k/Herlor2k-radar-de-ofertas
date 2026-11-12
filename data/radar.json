@@ -5,11 +5,29 @@
   "2026-11-11"
  ],
  "contagem": {
-  "Escalando": 32,
-  "Estagnada": 66,
-  "Morrendo": 35,
+  "Escalando": 30,
+  "Estagnada": 67,
+  "Morrendo": 36,
   "Sem leitura": 0
  },
+ "alertas": [
+  {
+   "d": "2026-11-11",
+   "dominio": "nucleoedifica.com.br",
+   "id": "renato-edifica-construcoes-e-reformas-nucleoedifica",
+   "anunciante": "Renato Edifica - Construções e Reformas.",
+   "tipo": "caiu",
+   "texto": "Anúncios ativos caíram de 44 para 29 em um dia."
+  },
+  {
+   "d": "2026-11-11",
+   "dominio": "aisnemorelli.com.br",
+   "id": "aisne-morelli-aisnemorelli",
+   "anunciante": "Aisne morelli",
+   "tipo": "zerou",
+   "texto": "Zerou: tinha 170 anúncios ativos e hoje não tem nenhum."
+  }
+ ],
  "ofertas": [
   {
    "id": "vitteam-vitteam",
@@ -88,81 +106,6 @@
    "fogo": false
   },
   {
-   "id": "renato-edifica-construcoes-e-reformas-nucleoedifica",
-   "anunciante": "Renato Edifica - Construções e Reformas.",
-   "nicho": "Construção (leitura de planta)",
-   "dominio": "nucleoedifica.com.br",
-   "preco": "de R$200 por R$67",
-   "angulo": "Ensinar quem nunca estudou arquitetura a entender uma planta de obra",
-   "nota": "8",
-   "justificativa": "1+2+2+2+1 = 8. 7 anúncios ativos, 362 dias no ar, 1 outro anunciante, origem R$67, entregável em PDF.",
-   "palavra": "apenas R$ 67",
-   "status_planilha": "Novo",
-   "data_mineracao": "2026-10-18",
-   "dias_no_ar_mineracao": 362,
-   "link_anuncio": "https://www.facebook.com/ads/library/?id=24937425245877777",
-   "pagina": "https://nucleoedifica.com.br/matricula-lipa-oferta",
-   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=nucleoedifica.com.br",
-   "serie": [
-    {
-     "d": "2026-10-18",
-     "ativos": 7,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    {
-     "d": "2026-11-10",
-     "ativos": 44,
-     "anunciantes": 1,
-     "n7": 40,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-11",
-     "ativos": 44,
-     "anunciantes": 1,
-     "n7": 42,
-     "fonte": "coleta"
-    }
-   ],
-   "atual": {
-    "d": "2026-11-11",
-    "ativos": 44,
-    "anunciantes": 1,
-    "adv": {
-     "Renato Edifica - Construções e Reformas.": 42
-    },
-    "oldest": "2026-11-06",
-    "n1": 0,
-    "n7": 42,
-    "amostra": 42
-   },
-   "diag": {
-    "status": "Escalando",
-    "var": 5.2857,
-    "ref": {
-     "d": "2026-10-18",
-     "ativos": 7,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    "pontos": [
-     "Anúncios ativos: 7 em 18/10/2026 → 44 hoje (+529%).",
-     "42 anúncios novos subiram nos últimos 7 dias: o anunciante está testando criativos.",
-     "O anúncio ativo mais antigo roda desde 06/11/2026 (5 dias): criativo validado.",
-     "1 anunciante rodando esse domínio: Renato Edifica - Construções e Reformas. (42).",
-     "Anunciantes contados em 42 dos 44 anúncios (a Biblioteca carrega os anúncios aos poucos)."
-    ],
-    "acao": "Ganhando tração. Prioridade para modelar agora.",
-    "momento": 612.6
-   },
-   "tema": "Profissões técnicas",
-   "idade_dias": 5,
-   "fogo": true
-  },
-  {
    "id": "j-t-cursos-psicologia-jtpsi",
    "anunciante": "J&T cursos Psicologia",
    "nicho": "Psicologia (protocolo de sessões)",
@@ -236,6 +179,348 @@
    "tema": "Saúde e psicologia",
    "idade_dias": 180,
    "fogo": false
+  },
+  {
+   "id": "renato-edifica-construcoes-e-reformas-nucleoedifica",
+   "anunciante": "Renato Edifica - Construções e Reformas.",
+   "nicho": "Construção (leitura de planta)",
+   "dominio": "nucleoedifica.com.br",
+   "preco": "de R$200 por R$67",
+   "angulo": "Ensinar quem nunca estudou arquitetura a entender uma planta de obra",
+   "nota": "8",
+   "justificativa": "1+2+2+2+1 = 8. 7 anúncios ativos, 362 dias no ar, 1 outro anunciante, origem R$67, entregável em PDF.",
+   "palavra": "apenas R$ 67",
+   "status_planilha": "Novo",
+   "data_mineracao": "2026-10-18",
+   "dias_no_ar_mineracao": 362,
+   "link_anuncio": "https://www.facebook.com/ads/library/?id=24937425245877777",
+   "pagina": "https://nucleoedifica.com.br/matricula-lipa-oferta",
+   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=nucleoedifica.com.br",
+   "serie": [
+    {
+     "d": "2026-10-18",
+     "ativos": 7,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    {
+     "d": "2026-11-10",
+     "ativos": 44,
+     "anunciantes": 1,
+     "n7": 40,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-11",
+     "ativos": 29,
+     "anunciantes": 1,
+     "n7": 29,
+     "fonte": "coleta"
+    }
+   ],
+   "atual": {
+    "d": "2026-11-11",
+    "ativos": 29,
+    "anunciantes": 1,
+    "adv": {
+     "Renato Edifica - Construções e Reformas.": 29
+    },
+    "oldest": "2026-11-06",
+    "n1": 0,
+    "n7": 29,
+    "amostra": 29
+   },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "1103627682448283",
+      "inicio": "2026-11-06",
+      "copias": 2,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     },
+     {
+      "id": "1627491114937813",
+      "inicio": "2026-11-06",
+      "copias": 2,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     },
+     {
+      "id": "2191983348342426",
+      "inicio": "2026-11-06",
+      "copias": 2,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     },
+     {
+      "id": "1773525767780245",
+      "inicio": "2026-11-06",
+      "copias": 2,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     },
+     {
+      "id": "1127516383505122",
+      "inicio": "2026-11-06",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     },
+     {
+      "id": "2593173947825634",
+      "inicio": "2026-11-06",
+      "copias": 2,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     },
+     {
+      "id": "1656062626427813",
+      "inicio": "2026-11-06",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     },
+     {
+      "id": "2284315709078317",
+      "inicio": "2026-11-06",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
+     }
+    ],
+    "criativos_em": "2026-11-11",
+    "pagina": {
+     "precos": [
+      "R$67"
+     ],
+     "ancora": "R$200",
+     "bonus": 1,
+     "garantia_dias": 7,
+     "checkout": "Próprio (nucleoedifica.com.br)",
+     "video": false,
+     "order_bump": null,
+     "formato": "Curso em vídeo com 5 aulas e certificado",
+     "promessa": "Aprender a ler plantas e projetos de obra em poucos dias, sem precisar de formação.",
+     "h1_hash": "049d21781e1c",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "leitura de planta",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=leitura%20de%20planta",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 280,
+      "amostra": 32,
+      "anunciantes": 23
+     }
+    ]
+   },
+   "diag": {
+    "status": "Escalando",
+    "var": 3.1429,
+    "ref": {
+     "d": "2026-10-18",
+     "ativos": 7,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    "pontos": [
+     "Anúncios ativos: 7 em 18/10/2026 → 29 hoje (+314%).",
+     "29 anúncios novos subiram nos últimos 7 dias: o anunciante está testando criativos.",
+     "O anúncio ativo mais antigo roda desde 06/11/2026 (5 dias): criativo validado.",
+     "1 anunciante rodando esse domínio: Renato Edifica - Construções e Reformas. (29)."
+    ],
+    "acao": "Ganhando tração. Prioridade para modelar agora.",
+    "momento": 372.3
+   },
+   "tema": "Profissões técnicas",
+   "idade_dias": 5,
+   "fogo": true
+  },
+  {
+   "id": "mineiro-das-vendas-trafego-pago-mineirodasvendas",
+   "anunciante": "Mineiro das Vendas Tráfego Pago",
+   "nicho": "Tráfego pago",
+   "dominio": "mineirodasvendas.com.br",
+   "preco": "de R$297 por R$97",
+   "angulo": "Curso completo de tráfego pago com preço de entrada baixo",
+   "nota": "6",
+   "justificativa": "2+2+0+2+0 = 6. 24 anúncios ativos, 140 dias no ar, 22 outros anunciantes, origem R$97, não entregável só em PDF (curso em vídeo).",
+   "palavra": "apenas R$ 97",
+   "status_planilha": "Novo",
+   "data_mineracao": "2026-10-22",
+   "dias_no_ar_mineracao": 140,
+   "link_anuncio": "https://www.facebook.com/ads/library/?id=1307588801531139",
+   "pagina": "https://mineirodasvendas.com.br/metodo-mdv",
+   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=mineirodasvendas.com.br",
+   "serie": [
+    {
+     "d": "2026-10-22",
+     "ativos": 24,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    {
+     "d": "2026-11-10",
+     "ativos": 100,
+     "anunciantes": 1,
+     "n7": 35,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-11",
+     "ativos": 67,
+     "anunciantes": 1,
+     "n7": 41,
+     "fonte": "coleta"
+    }
+   ],
+   "atual": {
+    "d": "2026-11-11",
+    "ativos": 67,
+    "anunciantes": 1,
+    "adv": {
+     "Mineiro das Vendas Tráfego Pago": 80
+    },
+    "oldest": "2026-11-03",
+    "n1": 0,
+    "n7": 41,
+    "amostra": 80
+   },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "1111646904962139",
+      "inicio": "2026-11-03",
+      "copias": 3,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+     },
+     {
+      "id": "29997597529827957",
+      "inicio": "2026-11-03",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+     },
+     {
+      "id": "1143985758488976",
+      "inicio": "2026-11-03",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+     },
+     {
+      "id": "1643597037502097",
+      "inicio": "2026-11-03",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday."
+     },
+     {
+      "id": "1548911243728449",
+      "inicio": "2026-11-06",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+     },
+     {
+      "id": "1833945271065505",
+      "inicio": "2026-11-04",
+      "copias": 2,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+     },
+     {
+      "id": "1430950605255193",
+      "inicio": "2026-11-04",
+      "copias": 2,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+     },
+     {
+      "id": "1150565374576623",
+      "inicio": "2026-11-04",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "novo",
+      "gancho": "Outro produto (vender gestão de tráfego como serviço): ensina a prospectar, fechar e atender clientes, de R$497 por R$197 na Black Friday."
+     }
+    ],
+    "criativos_em": "2026-11-11",
+    "pagina": {
+     "precos": [
+      "R$97"
+     ],
+     "ancora": "R$2.329 (o banner do topo diz R$297)",
+     "bonus": 6,
+     "garantia_dias": 7,
+     "checkout": "clkdmg.site",
+     "video": null,
+     "order_bump": null,
+     "formato": "Curso online com acesso vitalício",
+     "promessa": "Usar tráfego pago com apoio de IA para ter lucro previsível, do iniciante ao avançado.",
+     "h1_hash": "bbe9e30a2296",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "curso tráfego pago",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=curso%20tr%C3%A1fego%20pago",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 2700,
+      "amostra": 30,
+      "anunciantes": 19
+     }
+    ]
+   },
+   "diag": {
+    "status": "Escalando",
+    "var": 1.7917,
+    "ref": {
+     "d": "2026-10-22",
+     "ativos": 24,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    "pontos": [
+     "Anúncios ativos: 24 em 22/10/2026 → 67 hoje (+179%).",
+     "41 anúncios novos subiram nos últimos 7 dias: o anunciante está testando criativos.",
+     "O anúncio ativo mais antigo roda desde 03/11/2026 (8 dias): criativo validado.",
+     "1 anunciante rodando esse domínio: Mineiro das Vendas Tráfego Pago (80)."
+    ],
+    "acao": "Ganhando tração. Prioridade para modelar agora.",
+    "momento": 261.2
+   },
+   "tema": "Marketing e vendas",
+   "idade_dias": 8,
+   "fogo": true
   },
   {
    "id": "mariane-assis-dias-lps",
@@ -388,81 +673,6 @@
    "tema": "Culinária e confeitaria",
    "idade_dias": 150,
    "fogo": false
-  },
-  {
-   "id": "mineiro-das-vendas-trafego-pago-mineirodasvendas",
-   "anunciante": "Mineiro das Vendas Tráfego Pago",
-   "nicho": "Tráfego pago",
-   "dominio": "mineirodasvendas.com.br",
-   "preco": "de R$297 por R$97",
-   "angulo": "Curso completo de tráfego pago com preço de entrada baixo",
-   "nota": "6",
-   "justificativa": "2+2+0+2+0 = 6. 24 anúncios ativos, 140 dias no ar, 22 outros anunciantes, origem R$97, não entregável só em PDF (curso em vídeo).",
-   "palavra": "apenas R$ 97",
-   "status_planilha": "Novo",
-   "data_mineracao": "2026-10-22",
-   "dias_no_ar_mineracao": 140,
-   "link_anuncio": "https://www.facebook.com/ads/library/?id=1307588801531139",
-   "pagina": "https://mineirodasvendas.com.br/metodo-mdv",
-   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=mineirodasvendas.com.br",
-   "serie": [
-    {
-     "d": "2026-10-22",
-     "ativos": 24,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    {
-     "d": "2026-11-10",
-     "ativos": 100,
-     "anunciantes": 1,
-     "n7": 35,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-11",
-     "ativos": 67,
-     "anunciantes": 1,
-     "n7": 16,
-     "fonte": "coleta"
-    }
-   ],
-   "atual": {
-    "d": "2026-11-11",
-    "ativos": 67,
-    "anunciantes": 1,
-    "adv": {
-     "Mineiro das Vendas Tráfego Pago": 32
-    },
-    "oldest": "2026-11-03",
-    "n1": 0,
-    "n7": 16,
-    "amostra": 32
-   },
-   "diag": {
-    "status": "Escalando",
-    "var": 1.7917,
-    "ref": {
-     "d": "2026-10-22",
-     "ativos": 24,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    "pontos": [
-     "Anúncios ativos: 24 em 22/10/2026 → 67 hoje (+179%).",
-     "16 anúncios novos subiram nos últimos 7 dias: o anunciante está testando criativos.",
-     "O anúncio ativo mais antigo roda desde 03/11/2026 (8 dias): criativo validado.",
-     "1 anunciante rodando esse domínio: Mineiro das Vendas Tráfego Pago (32).",
-     "Anunciantes contados em 32 dos 67 anúncios (a Biblioteca carrega os anúncios aos poucos)."
-    ],
-    "acao": "Ganhando tração. Prioridade para modelar agora.",
-    "momento": 211.2
-   },
-   "tema": "Marketing e vendas",
-   "idade_dias": 8,
-   "fogo": true
   },
   {
    "id": "julio-luchmann-julioluchmann",
@@ -668,6 +878,104 @@
     "n7": 13,
     "amostra": 13
    },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "1388111289819298",
+      "inicio": "2026-11-05",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     },
+     {
+      "id": "1139173401839728",
+      "inicio": "2026-11-05",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     },
+     {
+      "id": "1047768841669341",
+      "inicio": "2026-11-05",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     },
+     {
+      "id": "1591491469391744",
+      "inicio": "2026-11-05",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     },
+     {
+      "id": "2000643468007454",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     },
+     {
+      "id": "2027586901214141",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     },
+     {
+      "id": "1091794547018602",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     },
+     {
+      "id": "1597662162116021",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
+     }
+    ],
+    "criativos_em": "2026-11-11",
+    "pagina": {
+     "precos": [
+      "R$47"
+     ],
+     "ancora": null,
+     "bonus": 4,
+     "garantia_dias": 7,
+     "checkout": "Hotmart",
+     "video": false,
+     "order_bump": null,
+     "formato": "Curso em vídeo com 5 módulos e mais de 20 aulas",
+     "promessa": "Dominar a moto em situações reais de trânsito para rodar com segurança, sem quedas e sem multas.",
+     "obs": "Tem vídeo de depoimento de aluno, mas não vídeo de vendas.",
+     "h1_hash": "aac8511f5213",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "curso pilotagem moto",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=curso%20pilotagem%20moto",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 160,
+      "amostra": 22,
+      "anunciantes": 17
+     }
+    ]
+   },
    "diag": {
     "status": "Escalando",
     "var": 1.6,
@@ -842,81 +1150,6 @@
    "fogo": false
   },
   {
-   "id": "aisne-morelli-aisnemorelli",
-   "anunciante": "Aisne morelli",
-   "nicho": "Perfumaria artesanal",
-   "dominio": "aisnemorelli.com.br",
-   "preco": "de R$260 por R$47",
-   "angulo": "Aprender a criar as próprias fragrâncias em casa",
-   "nota": "7",
-   "justificativa": "3+2+0+1+1 = 7. 73 anúncios ativos, 140 dias no ar, 11 outros anunciantes, origem R$47, entregável em PDF.",
-   "palavra": "ebook apenas R$ 47",
-   "status_planilha": "Novo",
-   "data_mineracao": "2026-10-24",
-   "dias_no_ar_mineracao": 140,
-   "link_anuncio": "https://www.facebook.com/ads/library/?id=1557994675788743",
-   "pagina": "https://aisnemorelli.com.br/perfumaria/",
-   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=aisnemorelli.com.br",
-   "serie": [
-    {
-     "d": "2026-10-24",
-     "ativos": 73,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    {
-     "d": "2026-11-10",
-     "ativos": 170,
-     "anunciantes": 1,
-     "n7": 0,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-11",
-     "ativos": 170,
-     "anunciantes": 1,
-     "n7": 0,
-     "fonte": "coleta"
-    }
-   ],
-   "atual": {
-    "d": "2026-11-11",
-    "ativos": 170,
-    "anunciantes": 1,
-    "adv": {
-     "Aisne morelli": 116
-    },
-    "oldest": "2026-10-21",
-    "n1": 0,
-    "n7": 0,
-    "amostra": 116
-   },
-   "diag": {
-    "status": "Escalando",
-    "var": 1.3288,
-    "ref": {
-     "d": "2026-10-24",
-     "ativos": 73,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    "pontos": [
-     "Anúncios ativos: 73 em 24/10/2026 → 170 hoje (+133%).",
-     "Nenhum anúncio novo nos últimos 7 dias: só criativos antigos rodando.",
-     "O anúncio ativo mais antigo roda desde 21/10/2026 (21 dias): criativo validado.",
-     "1 anunciante rodando esse domínio: Aisne morelli (116).",
-     "Anunciantes contados em 116 dos 170 anúncios (a Biblioteca carrega os anúncios aos poucos)."
-    ],
-    "acao": "Ganhando tração. Prioridade para modelar agora.",
-    "momento": 132.9
-   },
-   "tema": "Artesanato",
-   "idade_dias": 21,
-   "fogo": true
-  },
-  {
    "id": "al1nesantiago-teteiaamigurumi",
    "anunciante": "al1nesantiago",
    "nicho": "Amigurumi (receitas de Natal)",
@@ -1066,6 +1299,352 @@
    "tema": "Culinária e confeitaria",
    "idade_dias": 35,
    "fogo": false
+  },
+  {
+   "id": "elite-stl-elitestl",
+   "anunciante": "Elite STL",
+   "nicho": "Impressão 3D (pack de arquivos)",
+   "dominio": "elitestl.online",
+   "preco": "não visível",
+   "angulo": "Pack com milhares de modelos organizados para quem imprime em 3D",
+   "nota": "6",
+   "justificativa": "2+2+1+0+1 = 6. 42 anúncios ativos, 112 dias no ar, 8 outros anunciantes, origem não visível, entregável em PDF (arquivos digitais).",
+   "palavra": "modelos prontos apenas R$ 47",
+   "status_planilha": "Novo",
+   "data_mineracao": "2026-11-02",
+   "dias_no_ar_mineracao": 112,
+   "link_anuncio": "https://www.facebook.com/ads/library/?id=1001910552629113",
+   "pagina": "https://elitestl.online/",
+   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=elitestl.online",
+   "serie": [
+    {
+     "d": "2026-11-02",
+     "ativos": 42,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    {
+     "d": "2026-11-10",
+     "ativos": 40,
+     "anunciantes": 1,
+     "n7": 31,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-11",
+     "ativos": 49,
+     "anunciantes": 1,
+     "n7": 49,
+     "fonte": "coleta"
+    }
+   ],
+   "atual": {
+    "d": "2026-11-11",
+    "ativos": 49,
+    "anunciantes": 1,
+    "adv": {
+     "Elite STL": 53
+    },
+    "oldest": "2026-11-07",
+    "n1": 9,
+    "n7": 49,
+    "amostra": 53
+   },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "1800715351213300",
+      "inicio": "2026-11-07",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+     },
+     {
+      "id": "1494684472538560",
+      "inicio": "2026-11-07",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+     },
+     {
+      "id": "2131608247726930",
+      "inicio": "2026-11-07",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+     },
+     {
+      "id": "2300515717408675",
+      "inicio": "2026-11-07",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+     },
+     {
+      "id": "1442864198060092",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+     },
+     {
+      "id": "1177989457902719",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+     },
+     {
+      "id": "1155074557027844",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Mesmo pack, com abertura voltada a renda: fazer a impressora 3D virar fonte de dinheiro."
+     },
+     {
+      "id": "1592476116015392",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+     }
+    ],
+    "criativos_em": "2026-11-11",
+    "pagina": {
+     "precos": [
+      "R$37,90",
+      "R$9,90"
+     ],
+     "ancora": "R$489,90 e R$189,90",
+     "bonus": 10,
+     "garantia_dias": 14,
+     "checkout": "primepay.store",
+     "video": false,
+     "order_bump": "Upsell na própria página: upgrade de plano por R$27,90",
+     "formato": "Biblioteca de arquivos STL com acesso por plataforma",
+     "promessa": "Ter um acervo grande de modelos 3D prontos para imprimir e vender, sem saber modelar.",
+     "h1_hash": "a97cf62b10e0",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "pack stl",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=pack%20stl",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 680,
+      "amostra": 42,
+      "anunciantes": 11
+     }
+    ]
+   },
+   "diag": {
+    "status": "Escalando",
+    "var": 0.1667,
+    "ref": {
+     "d": "2026-11-02",
+     "ativos": 42,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    "pontos": [
+     "Anúncios ativos: 42 em 02/11/2026 → 49 hoje (+17%).",
+     "49 anúncios novos subiram nos últimos 7 dias, 9 deles no último dia: o anunciante está testando criativos.",
+     "O anúncio ativo mais antigo roda desde 07/11/2026 (4 dias): criativo validado.",
+     "1 anunciante rodando esse domínio: Elite STL (53).",
+     "Atenção: o número da planilha foi anotado como \"visíveis\" (contagem parcial), então a variação contra ele pode estar exagerada."
+    ],
+    "acao": "Ganhando tração. Prioridade para modelar agora.",
+    "momento": 114.7
+   },
+   "tema": "IA e tecnologia",
+   "idade_dias": 4,
+   "fogo": true
+  },
+  {
+   "id": "thayna-oliveira-doceria-aplicativodocelucro",
+   "anunciante": "Thayná Oliveira Doceria",
+   "nicho": "Confeitaria (precificação)",
+   "dominio": "aplicativodocelucro.lovable.app",
+   "preco": "não visível",
+   "angulo": "Ferramenta para a confeiteira descobrir se está vendendo no prejuízo",
+   "nota": "2",
+   "justificativa": "1+0+0+0+1 = 2. 5 anúncios ativos, 10 dias no ar, 12 outros anunciantes, origem não visível, entregável em PDF (como planilha).",
+   "palavra": "receitas apenas R$ 47",
+   "status_planilha": "Começando a escalar",
+   "data_mineracao": "2026-10-31",
+   "dias_no_ar_mineracao": 10,
+   "link_anuncio": "https://www.facebook.com/ads/library/?id=4572385229696377",
+   "pagina": "https://aplicativodocelucro.lovable.app/",
+   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=aplicativodocelucro.lovable.app",
+   "serie": [
+    {
+     "d": "2026-10-31",
+     "ativos": 5,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    {
+     "d": "2026-11-10",
+     "ativos": 6,
+     "anunciantes": 1,
+     "n7": 2,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-11",
+     "ativos": 10,
+     "anunciantes": 1,
+     "n7": 7,
+     "fonte": "coleta"
+    }
+   ],
+   "atual": {
+    "d": "2026-11-11",
+    "ativos": 10,
+    "anunciantes": 1,
+    "adv": {
+     "Thayná Oliveira Doceria": 10
+    },
+    "oldest": "2026-10-21",
+    "n1": 6,
+    "n7": 7,
+    "amostra": 10
+   },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "29225166317117993",
+      "inicio": "2026-10-21",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     },
+     {
+      "id": "1524048049530032",
+      "inicio": "2026-10-22",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     },
+     {
+      "id": "1077044161997354",
+      "inicio": "2026-10-27",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     },
+     {
+      "id": "1112505291571854",
+      "inicio": "2026-11-09",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     },
+     {
+      "id": "1820413052331884",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     },
+     {
+      "id": "1456269763138650",
+      "inicio": "2026-11-11",
+      "copias": 3,
+      "formato": "imagem",
+      "grupo": "novo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     },
+     {
+      "id": "1631158895153095",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     },
+     {
+      "id": "1780631073652021",
+      "inicio": "2026-11-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "novo",
+      "gancho": "Alerta de que a confeiteira pode estar vendendo no prejuízo sem perceber: vender muito não é o mesmo que lucrar."
+     }
+    ],
+    "criativos_em": "2026-11-11",
+    "pagina": {
+     "precos": [
+      "R$47",
+      "R$97"
+     ],
+     "ancora": "R$197 e R$297",
+     "bonus": 10,
+     "garantia_dias": 7,
+     "checkout": "Eduzz",
+     "video": true,
+     "order_bump": "Dois planos: anual por R$47 e vitalício por R$97",
+     "formato": "Aplicativo web com guias em PDF",
+     "promessa": "Descobrir o preço certo dos doces sem prejuízo e sem planilha, num app que também organiza pedidos e finanças.",
+     "h1_hash": "fe684a20ce60",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "precificação confeitaria",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=precifica%C3%A7%C3%A3o%20confeitaria",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 660,
+      "amostra": 31,
+      "anunciantes": 16
+     }
+    ]
+   },
+   "diag": {
+    "status": "Escalando",
+    "var": 1.0,
+    "ref": {
+     "d": "2026-10-31",
+     "ativos": 5,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    "pontos": [
+     "Anúncios ativos: 5 em 31/10/2026 → 10 hoje (+100%).",
+     "7 anúncios novos subiram nos últimos 7 dias, 6 deles no último dia: o anunciante está testando criativos.",
+     "O anúncio ativo mais antigo roda desde 21/10/2026 (21 dias): criativo validado.",
+     "1 anunciante rodando esse domínio: Thayná Oliveira Doceria (10).",
+     "Atenção: o número da planilha foi anotado como \"visíveis\" (contagem parcial), então a variação contra ele pode estar exagerada."
+    ],
+    "acao": "Ganhando tração. Prioridade para modelar agora.",
+    "momento": 114.0
+   },
+   "tema": "Culinária e confeitaria",
+   "idade_dias": 21,
+   "fogo": true
   },
   {
    "id": "gj-treinamentos-contabeis-gjtreinamentoscontabeis",
@@ -1293,82 +1872,6 @@
    "fogo": false
   },
   {
-   "id": "elite-stl-elitestl",
-   "anunciante": "Elite STL",
-   "nicho": "Impressão 3D (pack de arquivos)",
-   "dominio": "elitestl.online",
-   "preco": "não visível",
-   "angulo": "Pack com milhares de modelos organizados para quem imprime em 3D",
-   "nota": "6",
-   "justificativa": "2+2+1+0+1 = 6. 42 anúncios ativos, 112 dias no ar, 8 outros anunciantes, origem não visível, entregável em PDF (arquivos digitais).",
-   "palavra": "modelos prontos apenas R$ 47",
-   "status_planilha": "Novo",
-   "data_mineracao": "2026-11-02",
-   "dias_no_ar_mineracao": 112,
-   "link_anuncio": "https://www.facebook.com/ads/library/?id=1001910552629113",
-   "pagina": "https://elitestl.online/",
-   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=elitestl.online",
-   "serie": [
-    {
-     "d": "2026-11-02",
-     "ativos": 42,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    {
-     "d": "2026-11-10",
-     "ativos": 40,
-     "anunciantes": 1,
-     "n7": 31,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-11",
-     "ativos": 49,
-     "anunciantes": 1,
-     "n7": 30,
-     "fonte": "coleta"
-    }
-   ],
-   "atual": {
-    "d": "2026-11-11",
-    "ativos": 49,
-    "anunciantes": 1,
-    "adv": {
-     "Elite STL": 30
-    },
-    "oldest": "2026-11-07",
-    "n1": 0,
-    "n7": 30,
-    "amostra": 30
-   },
-   "diag": {
-    "status": "Escalando",
-    "var": 0.1667,
-    "ref": {
-     "d": "2026-11-02",
-     "ativos": 42,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    "pontos": [
-     "Anúncios ativos: 42 em 02/11/2026 → 49 hoje (+17%).",
-     "30 anúncios novos subiram nos últimos 7 dias: o anunciante está testando criativos.",
-     "O anúncio ativo mais antigo roda desde 07/11/2026 (4 dias): criativo validado.",
-     "1 anunciante rodando esse domínio: Elite STL (30).",
-     "Anunciantes contados em 30 dos 49 anúncios (a Biblioteca carrega os anúncios aos poucos).",
-     "Atenção: o número da planilha foi anotado como \"visíveis\" (contagem parcial), então a variação contra ele pode estar exagerada."
-    ],
-    "acao": "Ganhando tração. Prioridade para modelar agora.",
-    "momento": 76.7
-   },
-   "tema": "IA e tecnologia",
-   "idade_dias": 4,
-   "fogo": true
-  },
-  {
    "id": "guto-magalhaes-gmstarter",
    "anunciante": "Guto Magalhães",
    "nicho": "Barbearia (prótese capilar)",
@@ -1419,6 +1922,55 @@
     "n7": 0,
     "amostra": 12
    },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "1680856273826236",
+      "inicio": "2026-10-19",
+      "copias": 3,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
+     },
+     {
+      "id": "2029058084473533",
+      "inicio": "2026-10-19",
+      "copias": 3,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Demanda crescente e falta de profissional qualificado: curso do zero para entrar na área."
+     },
+     {
+      "id": "2127243447891130",
+      "inicio": "2026-10-19",
+      "copias": 3,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
+     },
+     {
+      "id": "27263309806700888",
+      "inicio": "2026-10-21",
+      "copias": 3,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
+     }
+    ],
+    "criativos_em": "2026-11-11"
+   },
+   "nicho_busca": {
+    "termo": "curso prótese capilar",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=curso%20pr%C3%B3tese%20capilar",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 230,
+      "amostra": 30,
+      "anunciantes": 12
+     }
+    ]
+   },
    "diag": {
     "status": "Escalando",
     "var": 0.7143,
@@ -1440,81 +1992,6 @@
    },
    "tema": "Beleza e estética",
    "idade_dias": 23,
-   "fogo": true
-  },
-  {
-   "id": "thayna-oliveira-doceria-aplicativodocelucro",
-   "anunciante": "Thayná Oliveira Doceria",
-   "nicho": "Confeitaria (precificação)",
-   "dominio": "aplicativodocelucro.lovable.app",
-   "preco": "não visível",
-   "angulo": "Ferramenta para a confeiteira descobrir se está vendendo no prejuízo",
-   "nota": "2",
-   "justificativa": "1+0+0+0+1 = 2. 5 anúncios ativos, 10 dias no ar, 12 outros anunciantes, origem não visível, entregável em PDF (como planilha).",
-   "palavra": "receitas apenas R$ 47",
-   "status_planilha": "Começando a escalar",
-   "data_mineracao": "2026-10-31",
-   "dias_no_ar_mineracao": 10,
-   "link_anuncio": "https://www.facebook.com/ads/library/?id=4572385229696377",
-   "pagina": "https://aplicativodocelucro.lovable.app/",
-   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=aplicativodocelucro.lovable.app",
-   "serie": [
-    {
-     "d": "2026-10-31",
-     "ativos": 5,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    {
-     "d": "2026-11-10",
-     "ativos": 6,
-     "anunciantes": 1,
-     "n7": 2,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-11",
-     "ativos": 8,
-     "anunciantes": 1,
-     "n7": 5,
-     "fonte": "coleta"
-    }
-   ],
-   "atual": {
-    "d": "2026-11-11",
-    "ativos": 8,
-    "anunciantes": 1,
-    "adv": {
-     "Thayná Oliveira Doceria": 8
-    },
-    "oldest": "2026-10-21",
-    "n1": 4,
-    "n7": 5,
-    "amostra": 8
-   },
-   "diag": {
-    "status": "Escalando",
-    "var": 0.6,
-    "ref": {
-     "d": "2026-10-31",
-     "ativos": 5,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    "pontos": [
-     "Anúncios ativos: 5 em 31/10/2026 → 8 hoje (+60%).",
-     "5 anúncios novos subiram nos últimos 7 dias, 4 deles no último dia: o anunciante está testando criativos.",
-     "O anúncio ativo mais antigo roda desde 21/10/2026 (21 dias): criativo validado.",
-     "1 anunciante rodando esse domínio: Thayná Oliveira Doceria (8).",
-     "Atenção: o número da planilha foi anotado como \"visíveis\" (contagem parcial), então a variação contra ele pode estar exagerada."
-    ],
-    "acao": "Ganhando tração. Prioridade para modelar agora.",
-    "momento": 70.0
-   },
-   "tema": "Culinária e confeitaria",
-   "idade_dias": 21,
    "fogo": true
   },
   {
@@ -1738,80 +2215,6 @@
    "tema": "Culinária e confeitaria",
    "idade_dias": 502,
    "fogo": false
-  },
-  {
-   "id": "guilherme-teixeira-fxtreinospro",
-   "anunciante": "Guilherme Teixeira",
-   "nicho": "Treino (fichas prontas)",
-   "dominio": "fxtreinospro.com",
-   "preco": "não visível",
-   "angulo": "Treinos prontos para parar de treinar no improviso",
-   "nota": "",
-   "justificativa": "Começando a escalar: 1 anunciante, 2 anúncios ativos, 2 dias no ar.",
-   "palavra": "apenas R$ 47",
-   "status_planilha": "Escalando",
-   "data_mineracao": "2026-10-25",
-   "dias_no_ar_mineracao": 2,
-   "link_anuncio": "https://www.facebook.com/ads/library/?id=28167501572929602",
-   "pagina": "https://fxtreinospro.com/",
-   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=fxtreinospro.com",
-   "serie": [
-    {
-     "d": "2026-10-25",
-     "ativos": 2,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    {
-     "d": "2026-11-10",
-     "ativos": 5,
-     "anunciantes": 1,
-     "n7": 5,
-     "fonte": "coleta"
-    },
-    {
-     "d": "2026-11-11",
-     "ativos": 3,
-     "anunciantes": 1,
-     "n7": 3,
-     "fonte": "coleta"
-    }
-   ],
-   "atual": {
-    "d": "2026-11-11",
-    "ativos": 3,
-    "anunciantes": 1,
-    "adv": {
-     "Fxtreinospro": 3
-    },
-    "oldest": "2026-11-10",
-    "n1": 3,
-    "n7": 3,
-    "amostra": 3
-   },
-   "diag": {
-    "status": "Escalando",
-    "var": 0.5,
-    "ref": {
-     "d": "2026-10-25",
-     "ativos": 2,
-     "anunciantes": null,
-     "n7": null,
-     "fonte": "planilha"
-    },
-    "pontos": [
-     "Anúncios ativos: 2 em 25/10/2026 → 3 hoje (+50%).",
-     "3 anúncios novos subiram nos últimos 7 dias, 3 deles no último dia: o anunciante está testando criativos.",
-     "O anúncio ativo mais antigo roda desde 10/11/2026 (1 dias): criativo validado.",
-     "1 anunciante rodando esse domínio: Fxtreinospro (3)."
-    ],
-    "acao": "Ganhando tração. Prioridade para modelar agora.",
-    "momento": 56.0
-   },
-   "tema": "Fitness e emagrecimento",
-   "idade_dias": 1,
-   "fogo": true
   },
   {
    "id": "saude-em-foco-gestaosobpressao",
@@ -3281,6 +3684,129 @@
    },
    "tema": "Saúde e psicologia",
    "idade_dias": 478,
+   "fogo": false
+  },
+  {
+   "id": "guilherme-teixeira-fxtreinospro",
+   "anunciante": "Guilherme Teixeira",
+   "nicho": "Treino (fichas prontas)",
+   "dominio": "fxtreinospro.com",
+   "preco": "não visível",
+   "angulo": "Treinos prontos para parar de treinar no improviso",
+   "nota": "",
+   "justificativa": "Começando a escalar: 1 anunciante, 2 anúncios ativos, 2 dias no ar.",
+   "palavra": "apenas R$ 47",
+   "status_planilha": "Escalando",
+   "data_mineracao": "2026-10-25",
+   "dias_no_ar_mineracao": 2,
+   "link_anuncio": "https://www.facebook.com/ads/library/?id=28167501572929602",
+   "pagina": "https://fxtreinospro.com/",
+   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=fxtreinospro.com",
+   "serie": [
+    {
+     "d": "2026-10-25",
+     "ativos": 2,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    {
+     "d": "2026-11-10",
+     "ativos": 5,
+     "anunciantes": 1,
+     "n7": 5,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-11",
+     "ativos": 2,
+     "anunciantes": 1,
+     "n7": 2,
+     "fonte": "coleta"
+    }
+   ],
+   "atual": {
+    "d": "2026-11-11",
+    "ativos": 2,
+    "anunciantes": 1,
+    "adv": {
+     "Fxtreinospro": 2
+    },
+    "oldest": "2026-11-10",
+    "n1": 2,
+    "n7": 2,
+    "amostra": 2
+   },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "982996061550831",
+      "inicio": "2026-11-10",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Dúvida de quem chega na academia sem saber o que fazer: treinar no improviso atrapalha a evolução."
+     },
+     {
+      "id": "4592966217640736",
+      "inicio": "2026-11-10",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Dúvida de quem chega na academia sem saber o que fazer: treinar no improviso atrapalha a evolução."
+     }
+    ],
+    "criativos_em": "2026-11-11",
+    "pagina": {
+     "precos": [
+      "R$27,90"
+     ],
+     "ancora": null,
+     "bonus": 27,
+     "garantia_dias": 7,
+     "checkout": "Kirvano",
+     "video": false,
+     "order_bump": null,
+     "formato": "Área de membros com treinos, vídeos e ebook",
+     "promessa": "Ter treinos e receitas fit no celular por pagamento único, para parar de treinar no improviso.",
+     "h1_hash": "a9d333b97c38",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "treinos prontos",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=treinos%20prontos",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 690,
+      "amostra": 37,
+      "anunciantes": 21
+     }
+    ]
+   },
+   "diag": {
+    "status": "Estagnada",
+    "var": 0.0,
+    "ref": {
+     "d": "2026-10-25",
+     "ativos": 2,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    "pontos": [
+     "Anúncios ativos: 2 em 25/10/2026 → 2 hoje (±0%).",
+     "2 anúncios novos subiram nos últimos 7 dias, 2 deles no último dia: o anunciante está testando criativos.",
+     "O anúncio ativo mais antigo roda desde 10/11/2026 (1 dias): criativo validado.",
+     "1 anunciante rodando esse domínio: Fxtreinospro (2)."
+    ],
+    "acao": "Validada e estável, mas sem aceleração. Boa base para modelar com um ângulo novo.",
+    "momento": 4
+   },
+   "tema": "Fitness e emagrecimento",
+   "idade_dias": 1,
    "fogo": false
   },
   {
@@ -6963,6 +7489,63 @@
     "n7": 5,
     "amostra": 5
    },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "1643200990596635",
+      "inicio": "2026-11-10",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+     },
+     {
+      "id": "1619530259208861",
+      "inicio": "2026-11-10",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "antigo",
+      "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+     },
+     {
+      "id": "1972946964071508",
+      "inicio": "2026-11-10",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+     },
+     {
+      "id": "1487993499916894",
+      "inicio": "2026-11-10",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+     },
+     {
+      "id": "1508494687757780",
+      "inicio": "2026-11-10",
+      "copias": 1,
+      "formato": "imagem",
+      "grupo": "novo",
+      "gancho": "Promoção de Black Friday: acesso vitalício a todos os cursos de penteado com um pagamento só. É outro produto, não a oferta de R$47 minerada."
+     }
+    ],
+    "criativos_em": "2026-11-11"
+   },
+   "nicho_busca": {
+    "termo": "curso penteados",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=curso%20penteados",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 350,
+      "amostra": 81,
+      "anunciantes": 46
+     }
+    ]
+   },
    "diag": {
     "status": "Estagnada",
     "var": -0.8214,
@@ -7111,6 +7694,70 @@
     "n1": 0,
     "n7": 0,
     "amostra": 4
+   },
+   "raiox": {
+    "criativos": [
+     {
+      "id": "962288990039240",
+      "inicio": "2026-05-29",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Chamada direta a arquitetos e engenheiros para o livro digital da norma, com âncora de R$67 por R$19,90."
+     },
+     {
+      "id": "1617649313111616",
+      "inicio": "2026-06-09",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90."
+     },
+     {
+      "id": "939937932414223",
+      "inicio": "2026-06-09",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90."
+     },
+     {
+      "id": "1009876371517482",
+      "inicio": "2026-06-11",
+      "copias": 1,
+      "formato": "vídeo",
+      "grupo": "antigo",
+      "gancho": "Chamada direta a arquitetos e engenheiros para o livro digital da norma, com âncora de R$67 por R$19,90."
+     }
+    ],
+    "criativos_em": "2026-11-11",
+    "pagina": {
+     "precos": [],
+     "ancora": null,
+     "bonus": null,
+     "garantia_dias": null,
+     "checkout": null,
+     "video": null,
+     "order_bump": null,
+     "formato": null,
+     "promessa": "Checklist visual com os 30 pontos da norma de acessibilidade que mais reprovam projetos.",
+     "obs": "A página carrega o conteúdo por script; preço e bônus não ficaram visíveis na leitura automática.",
+     "h1_hash": "ae1e62f7e07a",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "nbr 9050",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=nbr%209050",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 67,
+      "amostra": 21,
+      "anunciantes": 11
+     }
+    ]
    },
    "diag": {
     "status": "Morrendo",
@@ -8648,6 +9295,106 @@
     "momento": -100.0
    },
    "tema": "Profissões técnicas",
+   "idade_dias": null,
+   "fogo": false
+  },
+  {
+   "id": "aisne-morelli-aisnemorelli",
+   "anunciante": "Aisne morelli",
+   "nicho": "Perfumaria artesanal",
+   "dominio": "aisnemorelli.com.br",
+   "preco": "de R$260 por R$47",
+   "angulo": "Aprender a criar as próprias fragrâncias em casa",
+   "nota": "7",
+   "justificativa": "3+2+0+1+1 = 7. 73 anúncios ativos, 140 dias no ar, 11 outros anunciantes, origem R$47, entregável em PDF.",
+   "palavra": "ebook apenas R$ 47",
+   "status_planilha": "Novo",
+   "data_mineracao": "2026-10-24",
+   "dias_no_ar_mineracao": 140,
+   "link_anuncio": "https://www.facebook.com/ads/library/?id=1557994675788743",
+   "pagina": "https://aisnemorelli.com.br/perfumaria/",
+   "biblioteca": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=aisnemorelli.com.br",
+   "serie": [
+    {
+     "d": "2026-10-24",
+     "ativos": 73,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    {
+     "d": "2026-11-10",
+     "ativos": 170,
+     "anunciantes": 1,
+     "n7": 0,
+     "fonte": "coleta"
+    },
+    {
+     "d": "2026-11-11",
+     "ativos": 0,
+     "anunciantes": 0,
+     "n7": 0,
+     "fonte": "coleta"
+    }
+   ],
+   "atual": {
+    "d": "2026-11-11",
+    "ativos": 0,
+    "anunciantes": 0,
+    "adv": {},
+    "oldest": null,
+    "n1": 0,
+    "n7": 0,
+    "amostra": 0
+   },
+   "raiox": {
+    "pagina": {
+     "precos": [
+      "R$47"
+     ],
+     "ancora": "R$260",
+     "bonus": 4,
+     "garantia_dias": null,
+     "checkout": "Hotmart",
+     "video": false,
+     "order_bump": null,
+     "formato": "Minicurso em vídeo com apostila e guias",
+     "promessa": "Aprender a fazer perfumes com segurança em cerca de uma hora, sem errar nem desperdiçar material.",
+     "h1_hash": "4d575f9fe3ff",
+     "lida_em": "2026-11-11"
+    },
+    "mudancas": []
+   },
+   "nicho_busca": {
+    "termo": "curso perfumaria artesanal",
+    "link": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type=keyword_unordered&q=curso%20perfumaria%20artesanal",
+    "serie": [
+     {
+      "d": "2026-11-11",
+      "total": 6,
+      "amostra": 5,
+      "anunciantes": 3
+     }
+    ]
+   },
+   "diag": {
+    "status": "Morrendo",
+    "var": -1.0,
+    "ref": {
+     "d": "2026-10-24",
+     "ativos": 73,
+     "anunciantes": null,
+     "n7": null,
+     "fonte": "planilha"
+    },
+    "pontos": [
+     "Anúncios ativos: 73 em 24/10/2026 → 0 hoje (−100%).",
+     "Nenhum anúncio ativo encontrado com esse domínio. Pode ter pausado ou trocado de domínio."
+    ],
+    "acao": "Perdendo tração. Só vale modelar com um ângulo claramente melhor.",
+    "momento": -100.0
+   },
+   "tema": "Artesanato",
    "idade_dias": null,
    "fogo": false
   },

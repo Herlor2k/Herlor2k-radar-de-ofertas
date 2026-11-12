@@ -6,21 +6,17 @@
 <title>Radar de Ofertas</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="apple-touch-icon" href="favicon.svg">
-<meta name="theme-color" content="#0d0d0d">
+<meta name="theme-color" content="#0c141d">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topo">
-  <a class="marca" href="#/">
-    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".6"/><path d="M12 12 L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg>
-    Radar de Ofertas
-  </a>
-  <span class="atualizado" id="atualizado"></span>
-</header>
-<main id="app"><p class="carregando">Carregando…</p></main>
+<div class="casca">
+  <aside class="lateral" id="lateral"></aside>
+  <main id="app"><p class="carregando">Carregando o radar…</p></main>
+</div>
 <div id="tip" class="tip" hidden></div>
 <script src="app.js"></script>
 </body>

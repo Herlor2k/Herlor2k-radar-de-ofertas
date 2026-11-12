@@ -7,15 +7,21 @@ for(let i=0;i<35&&st<3&&Date.now()-t0<25000;i++){window.scrollTo(0,document.body
 const t=document.body.innerText;
 const M={jan:1,fev:2,mar:3,abr:4,mai:5,jun:6,jul:7,ago:8,set:9,out:10,nov:11,dez:12};
 const hoje=new Date();hoje.setHours(0,0,0,0);
-const adv={};let oldest=null,n1=0,n7=0,soma=0;
+const adv={};let oldest=null,n1=0,n7=0,soma=0;const lista=[];
 for(const b of t.split(/Identificação da biblioteca: /).slice(1)){
  const d=b.match(/Veiculação iniciada em (\d+) de (\w{3})\.? de (\d{4})/);
  const a=((b.match(/\n([^\n]+)\nPatrocinado/)||[])[1]||'?').trim();
  const m=+((b.match(/(\d+) anúncios usam esse criativo/)||[])[1]||1);
  adv[a]=(adv[a]||0)+m;soma+=m;
- if(d){const dt=new Date(+d[3],M[d[2]]-1,+d[1]);const iso=`${d[3]}-${String(M[d[2]]).padStart(2,'0')}-${d[1].padStart(2,'0')}`;if(!oldest||iso<oldest)oldest=iso;const dias=(hoje-dt)/864e5;if(dias<=1)n1+=m;if(dias<=7)n7+=m;}
+ let iso=null;
+ if(d){const dt=new Date(+d[3],M[d[2]]-1,+d[1]);iso=`${d[3]}-${String(M[d[2]]).padStart(2,'0')}-${d[1].padStart(2,'0')}`;if(!oldest||iso<oldest)oldest=iso;const dias=(hoje-dt)/864e5;if(dias<=1)n1+=m;if(dias<=7)n7+=m;}
+ const id=(b.match(/^\d+/)||[])[0];
+ if(id&&!lista.some(x=>x[0]===id))lista.push([id,iso,m,/\d:\d\d \/ \d:\d\d/.test(b)?'vídeo':'imagem',((b.split(/\nPatrocinado\n/)[1]||'').replace(/\s+/g,' ').slice(0,320))]);
 }
+lista.sort((x,y)=>(x[1]||'9').localeCompare(y[1]||'9'));
+const antigos=lista.slice(0,4),novos=lista.slice(4).slice(-4).reverse();
+const ads=[...antigos.map(x=>[...x,'antigo']),...novos.map(x=>[...x,'novo'])];
 const tm=t.match(/~?([\d.]+) resultados?/);
-const R=JSON.stringify({q,total:tm?+tm[1].replace(/\./g,''):(soma||(/Nenhum anúncio/.test(t)?0:null)),cards:Math.max(last,0),amostra:soma,adv,oldest,n1,n7})
+const R=JSON.stringify({q,total:tm?+tm[1].replace(/\./g,''):(soma||(/Nenhum anúncio/.test(t)?0:null)),cards:Math.max(last,0),amostra:soma,adv,oldest,n1,n7,ads})
 try{const all=JSON.parse(sessionStorage.getItem('radarRes')||'{}');all[q]=JSON.parse(R);sessionStorage.setItem('radarRes',JSON.stringify(all))}catch(e){}
 R
