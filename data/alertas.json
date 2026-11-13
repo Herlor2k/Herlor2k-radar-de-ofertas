@@ -1,5 +1,29 @@
 [
  {
+  "d": "2026-11-13",
+  "dominio": "nucleoedifica.com.br",
+  "id": "renato-edifica-construcoes-e-reformas-nucleoedifica",
+  "anunciante": "Renato Edifica - Construções e Reformas.",
+  "tipo": "caiu",
+  "texto": "Anúncios ativos caíram de 29 para 12 em um dia."
+ },
+ {
+  "d": "2026-11-13",
+  "dominio": "temperamentosadois.com",
+  "id": "temperamentos-a-dois-temperamentosadois",
+  "anunciante": "Temperamentos a Dois",
+  "tipo": "fogo",
+  "texto": "Entrou no 🔥: 7 anúncios, 1 anunciante, anúncio mais antigo com 1 dias."
+ },
+ {
+  "d": "2026-11-13",
+  "dominio": "alinecustodio.com.br",
+  "id": "aline-custodio-penteados-alinecustodio",
+  "anunciante": "Aline Custodio Penteados",
+  "tipo": "zerou",
+  "texto": "Zerou: tinha 5 anúncios ativos e hoje não tem nenhum."
+ },
+ {
   "d": "2026-11-12",
   "dominio": "rafaeldomarketing.com.br",
   "id": "rafael-do-marketing-rafaeldomarketing",
