@@ -2,7 +2,7 @@
  "alinecustodio.com.br": {
   "ganchos": {},
   "criativos": [],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -12,12 +12,12 @@
    "bonus": 4,
    "garantia_dias": 7,
    "checkout": null,
-   "video": true,
+   "video": null,
    "order_bump": null,
    "formato": "cursos em vídeo + kit físico + workshop presencial",
-   "promessa": "A página virou oferta Black: pacote vitalício com todos os cursos de penteado atuais e futuros por um pagamento único.",
+   "promessa": "A página segue como oferta Black: pacote vitalício com todos os cursos de penteado atuais e futuros por pagamento único.",
    "h1_hash": "88a3f6d0da24",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "ebook.acessibilidadearquitetonica.com": {
@@ -61,7 +61,7 @@
     "gancho": "Chamada direta a arquitetos e engenheiros para o livro digital da norma, com âncora de R$67 por R$19,90."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [
    {
     "d": "2026-11-12",
@@ -78,12 +78,12 @@
    "bonus": null,
    "garantia_dias": 7,
    "checkout": null,
-   "video": null,
+   "video": false,
    "order_bump": null,
    "formato": "e-book visual (PDF) + acesso a plataforma",
    "promessa": "Arquiteto ou engenheiro confere em segundos os detalhes da norma de acessibilidade que mais reprovam projeto, com desenhos cotados.",
    "h1_hash": "247394d872d1",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "nucleoedifica.com.br": {
@@ -163,7 +163,7 @@
     "gancho": "Matrículas abertas na Black Friday para outro curso do mesmo anunciante (escada cascata), gravado em obra e com bônus. Não é a oferta de leitura de planta."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -175,10 +175,10 @@
    "checkout": null,
    "video": null,
    "order_bump": null,
-   "formato": "curso em vídeo (5 aulas) + material didático",
+   "formato": "curso em vídeo (5 aulas) + certificado",
    "promessa": "Quem trabalha em obra aprende em poucos dias a ler projeto arquitetônico e ganha espaço e respeito no canteiro.",
    "h1_hash": "049d21781e1c",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "mineirodasvendas.com.br": {
@@ -258,7 +258,7 @@
     "gancho": "Outro produto do mesmo anunciante: curso para vender e atender clientes de gestão de tráfego, em promoção de Black."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -273,7 +273,7 @@
    "formato": "curso em módulos (área de membros)",
    "promessa": "Aprender tráfego pago usando IA como apoio para chegar a resultado consistente, com o autor citando faturamento alto.",
    "h1_hash": "bbe9e30a2296",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "codigodasduasrodas.pages.dev": {
@@ -353,7 +353,7 @@
     "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -368,7 +368,7 @@
    "formato": "curso em vídeo gravado no trânsito",
    "promessa": "Motociclista que já anda de moto aprende a pilotar com controle no trânsito real para chegar em casa sem queda e sem multa.",
    "h1_hash": "aac8511f5213",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "elitestl.online": {
@@ -448,7 +448,7 @@
     "gancho": "Biblioteca gigante de modelos 3D organizada e pronta para imprimir, para quem quer variedade sem caçar arquivo."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -464,7 +464,7 @@
    "formato": "biblioteca de arquivos STL",
    "promessa": "Acesso a um acervo gigante de arquivos 3D prontos para imprimir, colecionar, decorar ou revender as peças.",
    "h1_hash": "a97cf62b10e0",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "gmstarter.orbitpages.online": {
@@ -508,7 +508,7 @@
     "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -520,10 +520,10 @@
    "checkout": "Eduzz",
    "video": null,
    "order_bump": null,
-   "formato": "curso em vídeo",
+   "formato": "curso em vídeo (12 meses de acesso)",
    "promessa": "Iniciante aplica a primeira prótese capilar com aparência natural e consegue o primeiro cliente em poucos dias.",
    "h1_hash": "ec9f40b12f78",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "aplicativodocelucro.lovable.app": {
@@ -594,7 +594,7 @@
     "gancho": "Alerta que muita confeiteira vende no prejuízo sem perceber e apresenta o app como jeito de enxergar o lucro real."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -610,7 +610,7 @@
    "formato": "aplicativo web + materiais em PDF",
    "promessa": "Confeiteira descobre quanto cobrar por cada doce sem prejuízo, sem planilha e sem pagar mensalidade.",
    "h1_hash": "fe684a20ce60",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "fxtreinospro.com": {
@@ -669,7 +669,7 @@
    "formato": "mini-curso em vídeo + apostila e checklists",
    "promessa": "Iniciante aprende a montar perfumes com receitas testadas, sem desperdiçar essência, em cerca de uma hora de aula.",
    "h1_hash": "4d575f9fe3ff",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   },
   "ganchos": {
    "1489602586372777": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos.",
@@ -738,7 +738,7 @@
     "gancho": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos."
    }
   ],
-  "criativos_em": "2026-11-14"
+  "criativos_em": "2026-11-15"
  },
  "mayaracamposconfeitaria.com.br": {
   "ganchos": {
@@ -746,10 +746,10 @@
    "1823075858696070": "Abertura de inscrições do curso de sobremesas na travessa, listando os sabores e mirando quem quer vender doces no Natal.",
    "1442835937990479": "Abertura de inscrições do curso de sobremesas na travessa, listando os sabores e mirando quem quer vender doces no Natal.",
    "1603460408181630": "Anuncia inscrições abertas listando os sabores de sobremesa de travessa que dá para vender no Natal.",
-   "1847466026601488": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno, com desconto, acesso estendido e sorteio de brinde.",
-   "1114129288280587": "Outro produto do anunciante: Black do curso de fatias de bolo para vender, com desconto forte e acesso de dois anos.",
-   "1144787511440780": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno, com desconto, acesso estendido e sorteio de brinde.",
-   "1139997695611333": "Outro produto do anunciante: Black do curso de bolos gelados para aumentar encomendas, com desconto e sorteio."
+   "1676215740625029": "Outro produto do anunciante: Black do curso de bolos gelados, com desconto, acesso de dois anos e sorteio de brinde.",
+   "1683313773378352": "Outro produto do anunciante: Black do curso de fatias de bolo, com o maior desconto da campanha e dois anos de acesso.",
+   "1607033444557371": "Outro produto do anunciante: Black do curso de bolos gelados, com desconto, acesso de dois anos e sorteio de brinde.",
+   "1089517924122110": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno e sem gelatina, com desconto, acesso estendido e sorteio."
   },
   "criativos": [
    {
@@ -785,39 +785,39 @@
     "gancho": "Anuncia inscrições abertas listando os sabores de sobremesa de travessa que dá para vender no Natal."
    },
    {
-    "id": "1847466026601488",
-    "inicio": "2026-11-08",
+    "id": "1676215740625029",
+    "inicio": "2026-11-14",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno, com desconto, acesso estendido e sorteio de brinde."
+    "gancho": "Outro produto do anunciante: Black do curso de bolos gelados, com desconto, acesso de dois anos e sorteio de brinde."
    },
    {
-    "id": "1114129288280587",
-    "inicio": "2026-11-08",
-    "copias": 1,
+    "id": "1683313773378352",
+    "inicio": "2026-11-14",
+    "copias": 4,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Outro produto do anunciante: Black do curso de fatias de bolo para vender, com desconto forte e acesso de dois anos."
+    "gancho": "Outro produto do anunciante: Black do curso de fatias de bolo, com o maior desconto da campanha e dois anos de acesso."
    },
    {
-    "id": "1144787511440780",
-    "inicio": "2026-11-08",
-    "copias": 1,
+    "id": "1607033444557371",
+    "inicio": "2026-11-14",
+    "copias": 4,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno, com desconto, acesso estendido e sorteio de brinde."
+    "gancho": "Outro produto do anunciante: Black do curso de bolos gelados, com desconto, acesso de dois anos e sorteio de brinde."
    },
    {
-    "id": "1139997695611333",
-    "inicio": "2026-11-08",
-    "copias": 2,
+    "id": "1089517924122110",
+    "inicio": "2026-11-14",
+    "copias": 3,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Outro produto do anunciante: Black do curso de bolos gelados para aumentar encomendas, com desconto e sorteio."
+    "gancho": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno e sem gelatina, com desconto, acesso estendido e sorteio."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -832,7 +832,7 @@
    "formato": "curso em vídeo + ebook",
    "promessa": "Confeiteira aprende sobremesas práticas de travessa para produzir e vender bastante nas encomendas de Natal.",
    "h1_hash": "49aa0ee27b21",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "rafaeldomarketing.com.br": {
@@ -989,7 +989,7 @@
     "gancho": "Mostra bolo, pão e sobremesa e defende que tirar glúten, açúcar e lactose não precisa tirar o prazer de comer."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -1005,7 +1005,7 @@
    "formato": "livro digital de receitas",
    "promessa": "Quem tem restrição alimentar volta a comer bolo, pão e massa sem açúcar, glúten e lactose sem abrir mão do sabor.",
    "h1_hash": "a73c7b94cd15",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  },
  "temperamentosadois.com": {
@@ -1076,7 +1076,7 @@
     "gancho": "Cena da esposa que insiste e do marido que se cala; explica o ciclo como choque entre temperamento rápido e calmo."
    }
   ],
-  "criativos_em": "2026-11-14",
+  "criativos_em": "2026-11-15",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -1091,7 +1091,7 @@
    "formato": "e-book + teste + caderno de 21 dias (PDF)",
    "promessa": "Casal cristão descobre a combinação dos temperamentos dos dois e troca a briga repetida por conversa, com prática diária de 21 dias.",
    "h1_hash": "b3bafe2429a1",
-   "lida_em": "2026-11-14"
+   "lida_em": "2026-11-15"
   }
  }
 }
