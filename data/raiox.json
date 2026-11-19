@@ -2,7 +2,7 @@
  "alinecustodio.com.br": {
   "ganchos": {},
   "criativos": [],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -11,13 +11,13 @@
    "ancora": "R$3.770,49",
    "bonus": 4,
    "garantia_dias": 7,
-   "checkout": null,
+   "checkout": "Greenn",
    "video": true,
    "order_bump": null,
    "formato": "pacote de cursos em vídeo + kit físico + workshop presencial",
    "promessa": "A página agora vende, em pagamento único, acesso a todos os cursos de penteado atuais e futuros da autora; a imersão de R$47 aparece só como item do pacote.",
    "h1_hash": "88a3f6d0da24",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "ebook.acessibilidadearquitetonica.com": {
@@ -43,7 +43,7 @@
     "gancho": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [
    {
     "d": "2026-11-12",
@@ -65,13 +65,13 @@
    "formato": "PDF (pranchas visuais)",
    "promessa": "Arquiteto ou engenheiro confere em segundos, com desenhos lado a lado de certo e errado, os pontos de acessibilidade da norma que mais reprovam projetos.",
    "h1_hash": "247394d872d1",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "nucleoedifica.com.br": {
   "ganchos": {},
   "criativos": [],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -86,7 +86,7 @@
    "formato": "curso em vídeo (5 aulas) + material",
    "promessa": "Quem trabalha em obra aprende a ler e interpretar plantas arquitetônicas em poucos dias, mesmo partindo do zero.",
    "h1_hash": "049d21781e1c",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "mineirodasvendas.com.br": {
@@ -96,9 +96,9 @@
    "1143985758488976": "Tráfego pago é mais do que publicar anúncio: promete ensinar a estruturar, testar e escalar campanhas com apoio de IA, em condição de Black Friday.",
    "1471215644877246": "Derruba a ideia de que tráfego é só publicar e oferece o método completo com apoio de IA em preço de Black e acesso vitalício.",
    "1620065889918322": "Outro produto do mesmo anunciante: curso para vender e atender clientes de gestão de tráfego, em promoção de Black.",
-   "29151711454481566": "Black do Método MDV: aprender a estratégia de tráfego (não só subir anúncio), com IA de apoio, preço derrubado e acesso vitalício.",
-   "1612207573452282": "Black do Método MDV: aprender a estratégia de tráfego (não só subir anúncio), com IA de apoio, preço derrubado e acesso vitalício.",
-   "1150565374576623": "Outro produto do mesmo anunciante (VGT): curso para quem já sabe tráfego conseguir e atender clientes como gestor, em promoção de Black."
+   "2624852521289690": "Contraste entre só subir anúncio e entender a estratégia por trás; oferta de Black com preço reduzido, IA e acesso vitalício.",
+   "1773538043903169": "Contraste entre só subir anúncio e entender a estratégia por trás; oferta de Black com preço reduzido, IA e acesso vitalício.",
+   "1111357951607889": "Tráfego é mais que publicar: estruturar, testar e escalar em várias plataformas com apoio de IA; preço de Black."
   },
   "criativos": [
    {
@@ -134,20 +134,28 @@
     "gancho": "Derruba a ideia de que tráfego é só publicar e oferece o método completo com apoio de IA em preço de Black e acesso vitalício."
    },
    {
-    "id": "29151711454481566",
+    "id": "2624852521289690",
     "inicio": "2026-11-14",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Black do Método MDV: aprender a estratégia de tráfego (não só subir anúncio), com IA de apoio, preço derrubado e acesso vitalício."
+    "gancho": "Contraste entre só subir anúncio e entender a estratégia por trás; oferta de Black com preço reduzido, IA e acesso vitalício."
    },
    {
-    "id": "1612207573452282",
-    "inicio": "2026-11-14",
-    "copias": 2,
+    "id": "1773538043903169",
+    "inicio": "2026-11-13",
+    "copias": 3,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Black do Método MDV: aprender a estratégia de tráfego (não só subir anúncio), com IA de apoio, preço derrubado e acesso vitalício."
+    "gancho": "Contraste entre só subir anúncio e entender a estratégia por trás; oferta de Black com preço reduzido, IA e acesso vitalício."
+   },
+   {
+    "id": "1111357951607889",
+    "inicio": "2026-11-04",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Tráfego é mais que publicar: estruturar, testar e escalar em várias plataformas com apoio de IA; preço de Black."
    },
    {
     "id": "1620065889918322",
@@ -156,17 +164,9 @@
     "formato": "imagem",
     "grupo": "novo",
     "gancho": "Outro produto do mesmo anunciante: curso para vender e atender clientes de gestão de tráfego, em promoção de Black."
-   },
-   {
-    "id": "1150565374576623",
-    "inicio": "2026-11-04",
-    "copias": 1,
-    "formato": "imagem",
-    "grupo": "novo",
-    "gancho": "Outro produto do mesmo anunciante (VGT): curso para quem já sabe tráfego conseguir e atender clientes como gestor, em promoção de Black."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -181,7 +181,7 @@
    "formato": "curso em vídeo",
    "promessa": "Método de tráfego pago turbinado com IA, que o autor diz ter gerado lucro de oito dígitos, para iniciantes e experientes.",
    "h1_hash": "bbe9e30a2296",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "codigodasduasrodas.pages.dev": {
@@ -189,7 +189,6 @@
    "1139173401839728": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
    "1047768841669341": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
    "1591491469391744": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
-   "2000643468007454": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros).",
    "2892250837812433": "Fala com quem tem CNH mas não se sente seguro na moto ou depende dela para trabalhar, e promete um passo a passo do zero ao trânsito real.",
    "974223182427116": "Fala com quem tem CNH mas não se sente seguro na moto ou depende dela para trabalhar, e promete um passo a passo do zero ao trânsito real.",
    "1902884817746580": "Fala com quem tem CNH mas não se sente seguro na moto ou depende dela para trabalhar, e promete um passo a passo do zero ao trânsito real.",
@@ -229,14 +228,6 @@
     "gancho": "Black November: compra o curso de pilotagem e ganha dois cursos extras (oficina e prova prática do Detran), tudo por R$47."
    },
    {
-    "id": "2000643468007454",
-    "inicio": "2026-11-11",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
-   },
-   {
     "id": "1591491469391744",
     "inicio": "2026-11-05",
     "copias": 1,
@@ -261,7 +252,7 @@
     "gancho": "Campanha de Black November: quem compra o curso leva de graça uma lista de bônus práticos (cuidados na oficina, prova de habilitação e outros)."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -282,13 +273,13 @@
  "elitestl.online": {
   "ganchos": {
    "1800715351213300": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
-   "1494684472538560": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
    "2300515717408675": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
    "2131608247726930": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
    "1783590232877373": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
-   "2701343243631241": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
-   "1134770735808000": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
-   "1434332452143137": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+   "1434332452143137": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo.",
+   "2469950883812301": "Volume: acervo gigante e organizado de modelos 3D prontos para imprimir, com coleções e extras para quem quer variar projetos.",
+   "1181466064451386": "Volume: acervo gigante e organizado de modelos 3D prontos para imprimir, com coleções e extras para quem quer variar projetos.",
+   "2772719976514842": "Volume: acervo gigante e organizado de modelos 3D prontos para imprimir, com coleções e extras para quem quer variar projetos."
   },
   "criativos": [
    {
@@ -308,12 +299,12 @@
     "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
    },
    {
-    "id": "1494684472538560",
+    "id": "2469950883812301",
     "inicio": "2026-11-07",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "antigo",
-    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
+    "gancho": "Volume: acervo gigante e organizado de modelos 3D prontos para imprimir, com coleções e extras para quem quer variar projetos."
    },
    {
     "id": "2300515717408675",
@@ -324,24 +315,24 @@
     "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
    },
    {
+    "id": "1181466064451386",
+    "inicio": "2026-11-16",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Volume: acervo gigante e organizado de modelos 3D prontos para imprimir, com coleções e extras para quem quer variar projetos."
+   },
+   {
+    "id": "2772719976514842",
+    "inicio": "2026-11-16",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Volume: acervo gigante e organizado de modelos 3D prontos para imprimir, com coleções e extras para quem quer variar projetos."
+   },
+   {
     "id": "1783590232877373",
     "inicio": "2026-11-08",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
-   },
-   {
-    "id": "2701343243631241",
-    "inicio": "2026-11-07",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
-   },
-   {
-    "id": "1134770735808000",
-    "inicio": "2026-11-07",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
@@ -356,7 +347,7 @@
     "gancho": "Pack com mais de 120 mil modelos 3D já organizados por categoria: praticidade para imprimir sem perder tempo procurando arquivo."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -416,7 +407,7 @@
     "gancho": "Barbeiros estão faturando com prótese capilar: entrada barata, por R$47, com fornecedores e materiais para começar."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -431,7 +422,7 @@
    "formato": "curso em vídeo",
    "promessa": "Barbeiro sem experiência aprende a aplicar a primeira prótese capilar com aparência natural e atender o primeiro cliente em poucos dias.",
    "h1_hash": "ec9f40b12f78",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "aplicativodocelucro.lovable.app": {
@@ -502,7 +493,7 @@
     "gancho": "Alerta que muita confeiteira vende no prejuízo sem perceber e apresenta o app como jeito de enxergar o lucro real."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -518,7 +509,7 @@
    "formato": "app web + PDFs imprimíveis",
    "promessa": "Confeiteira descobre quanto cobrar por cada doce para não ter prejuízo, sem planilha e sem pagar mensalidade.",
    "h1_hash": "fe684a20ce60",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "fxtreinospro.com": {
@@ -577,26 +568,16 @@
    "formato": "minicurso em vídeo + apostila e guias",
    "promessa": "Iniciante aprende a montar seus próprios perfumes com segurança em cerca de uma hora, desperdiçando menos material.",
    "h1_hash": "4d575f9fe3ff",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   },
   "ganchos": {
-   "1489602586372777": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos.",
-   "1867540351339252": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos.",
-   "1871238250669276": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos.",
-   "2635052510347387": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos.",
-   "4586626421603982": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos.",
-   "1681379870163691": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos.",
-   "2353156765469867": "Outro produto do anunciante: Black de uma formação vitalícia de saboaria com vários cursos e bônus, vendendo a ideia de parar de comprar curso avulso."
+   "2353156765469867": "Outro produto do anunciante: Black de uma formação vitalícia de saboaria com vários cursos e bônus, vendendo a ideia de parar de comprar curso avulso.",
+   "1676028750667641": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado.",
+   "1681186883371933": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado.",
+   "4535234506740917": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado.",
+   "1654796013345325": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
   },
   "criativos": [
-   {
-    "id": "1489602586372777",
-    "inicio": "2026-11-13",
-    "copias": 5,
-    "formato": "imagem",
-    "grupo": "antigo",
-    "gancho": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos."
-   },
    {
     "id": "2353156765469867",
     "inicio": "2026-11-13",
@@ -606,47 +587,39 @@
     "gancho": "Outro produto do anunciante: Black de uma formação vitalícia de saboaria com vários cursos e bônus, vendendo a ideia de parar de comprar curso avulso."
    },
    {
-    "id": "1867540351339252",
-    "inicio": "2026-11-13",
-    "copias": 4,
-    "formato": "imagem",
-    "grupo": "antigo",
-    "gancho": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos."
-   },
-   {
-    "id": "1871238250669276",
-    "inicio": "2026-11-13",
-    "copias": 8,
-    "formato": "imagem",
-    "grupo": "antigo",
-    "gancho": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos."
-   },
-   {
-    "id": "4586626421603982",
-    "inicio": "2026-11-13",
-    "copias": 3,
-    "formato": "imagem",
-    "grupo": "novo",
-    "gancho": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos."
-   },
-   {
-    "id": "1681379870163691",
-    "inicio": "2026-11-13",
-    "copias": 3,
-    "formato": "imagem",
-    "grupo": "novo",
-    "gancho": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos."
-   },
-   {
-    "id": "2635052510347387",
-    "inicio": "2026-11-13",
+    "id": "1676028750667641",
+    "inicio": "2026-11-17",
     "copias": 7,
-    "formato": "imagem",
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
+   },
+   {
+    "id": "1681186883371933",
+    "inicio": "2026-11-17",
+    "copias": 7,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
+   },
+   {
+    "id": "4535234506740917",
+    "inicio": "2026-11-17",
+    "copias": 7,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
+   },
+   {
+    "id": "1654796013345325",
+    "inicio": "2026-11-17",
+    "copias": 8,
+    "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Outro produto da mesma autora: pacote vitalício de Black com vários cursos de saboaria e muitos bônus, vendendo o fim de comprar cursos avulsos."
+    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
    }
   ],
-  "criativos_em": "2026-11-16"
+  "criativos_em": "2026-11-19"
  },
  "mayaracamposconfeitaria.com.br": {
   "ganchos": {
@@ -654,10 +627,10 @@
    "1823075858696070": "Abertura de inscrições do curso de sobremesas na travessa, listando os sabores e mirando quem quer vender doces no Natal.",
    "1442835937990479": "Abertura de inscrições do curso de sobremesas na travessa, listando os sabores e mirando quem quer vender doces no Natal.",
    "1603460408181630": "Anuncia inscrições abertas listando os sabores de sobremesa de travessa que dá para vender no Natal.",
-   "1676215740625029": "Outro produto do anunciante: Black do curso de bolos gelados, com desconto, acesso de dois anos e sorteio de brinde.",
    "1089517924122110": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno e sem gelatina, com desconto, acesso estendido e sorteio.",
-   "2905338819852200": "Black Friday do curso de tortas de vitrine: desconto de 30%, acesso estendido para 2 anos e sorteio de brinde. É outro curso da mesma confeiteira, não o de sobremesas na travessa.",
-   "1790028302300696": "Black Friday do curso de tortas de vitrine: desconto de 30%, acesso estendido para 2 anos e sorteio de brinde. É outro curso da mesma confeiteira, não o de sobremesas na travessa."
+   "1790028302300696": "Black Friday do curso de tortas de vitrine: desconto de 30%, acesso estendido para 2 anos e sorteio de brinde. É outro curso da mesma confeiteira, não o de sobremesas na travessa.",
+   "1607033444557371": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde.",
+   "2196929194582219": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde."
   },
   "criativos": [
    {
@@ -693,12 +666,20 @@
     "gancho": "Anuncia inscrições abertas listando os sabores de sobremesa de travessa que dá para vender no Natal."
    },
    {
-    "id": "2905338819852200",
+    "id": "1607033444557371",
     "inicio": "2026-11-14",
-    "copias": 1,
+    "copias": 4,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Black Friday do curso de tortas de vitrine: desconto de 30%, acesso estendido para 2 anos e sorteio de brinde. É outro curso da mesma confeiteira, não o de sobremesas na travessa."
+    "gancho": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde."
+   },
+   {
+    "id": "2196929194582219",
+    "inicio": "2026-11-14",
+    "copias": 7,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde."
    },
    {
     "id": "1790028302300696",
@@ -715,17 +696,9 @@
     "formato": "vídeo",
     "grupo": "novo",
     "gancho": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno e sem gelatina, com desconto, acesso estendido e sorteio."
-   },
-   {
-    "id": "1676215740625029",
-    "inicio": "2026-11-14",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Outro produto do anunciante: Black do curso de bolos gelados, com desconto, acesso de dois anos e sorteio de brinde."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -740,7 +713,7 @@
    "formato": "curso em vídeo + ebook",
    "promessa": "Confeiteira aprende sobremesas práticas de travessa para produzir e vender bastante nas encomendas de Natal.",
    "h1_hash": "49aa0ee27b21",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "rafaeldomarketing.com.br": {
@@ -822,82 +795,82 @@
  },
  "as365receitascheflu.lovable.app": {
   "ganchos": {
-   "1351412633793087": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
-   "1561759385461819": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
-   "1560261769004209": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
-   "2528736407581712": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
-   "2369428833860608": "Mostra bolo, pão e sobremesa e defende que tirar glúten, açúcar e lactose não precisa tirar o prazer de comer.",
-   "1823081372059721": "Mostra bolo, pão e sobremesa e defende que tirar glúten, açúcar e lactose não precisa tirar o prazer de comer.",
-   "1139210291837934": "Provoca com bolo, pão e sobremesa sem glúten, açúcar e lactose, defendendo que dieta restrita não precisa ser sem graça.",
-   "2251814368884862": "Provoca com bolo, pão e sobremesa sem glúten, açúcar e lactose, defendendo que dieta restrita não precisa ser sem graça."
+   "1074944198345273": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
+   "961446210285898": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
+   "1747083726647332": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
+   "1716309756279893": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro.",
+   "2153416298900096": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor.",
+   "1430868465926400": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor.",
+   "1430961905281884": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor.",
+   "2136840443582814": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
   },
   "criativos": [
    {
-    "id": "1351412633793087",
-    "inicio": "2026-06-14",
+    "id": "1074944198345273",
+    "inicio": "2026-07-19",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "antigo",
-    "gancho": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro."
+    "gancho": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro."
    },
    {
-    "id": "1561759385461819",
-    "inicio": "2026-06-14",
+    "id": "961446210285898",
+    "inicio": "2026-07-19",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "antigo",
-    "gancho": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro."
+    "gancho": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro."
    },
    {
-    "id": "1560261769004209",
-    "inicio": "2026-06-14",
+    "id": "1747083726647332",
+    "inicio": "2026-07-19",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "antigo",
-    "gancho": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro."
+    "gancho": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro."
    },
    {
-    "id": "2528736407581712",
-    "inicio": "2026-06-14",
+    "id": "1716309756279893",
+    "inicio": "2026-07-19",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "antigo",
-    "gancho": "Desafia o leitor a acreditar que pratos comuns (bolo, pizza, lasanha) são sem açúcar, glúten e lactose; a chef se apresenta como autora do livro."
+    "gancho": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro."
    },
    {
-    "id": "1139210291837934",
-    "inicio": "2026-11-13",
+    "id": "2153416298900096",
+    "inicio": "2026-11-14",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Provoca com bolo, pão e sobremesa sem glúten, açúcar e lactose, defendendo que dieta restrita não precisa ser sem graça."
+    "gancho": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
    },
    {
-    "id": "2369428833860608",
-    "inicio": "2026-11-07",
+    "id": "1430868465926400",
+    "inicio": "2026-11-11",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Mostra bolo, pão e sobremesa e defende que tirar glúten, açúcar e lactose não precisa tirar o prazer de comer."
+    "gancho": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
    },
    {
-    "id": "1823081372059721",
-    "inicio": "2026-11-07",
+    "id": "1430961905281884",
+    "inicio": "2026-11-11",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Mostra bolo, pão e sobremesa e defende que tirar glúten, açúcar e lactose não precisa tirar o prazer de comer."
+    "gancho": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
    },
    {
-    "id": "2251814368884862",
-    "inicio": "2026-11-06",
+    "id": "2136840443582814",
+    "inicio": "2026-11-10",
     "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Provoca com bolo, pão e sobremesa sem glúten, açúcar e lactose, defendendo que dieta restrita não precisa ser sem graça."
+    "gancho": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -913,78 +886,13 @@
    "formato": "material digital de receitas",
    "promessa": "Coletânea de um ano de receitas sem açúcar, glúten e lactose para comer bem todo dia sem abrir mão do sabor.",
    "h1_hash": "a73c7b94cd15",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "temperamentosadois.com": {
-  "ganchos": {
-   "1674637380965984": "Contrapõe o teste de temperamento feito sozinho a um teste que cruza o jeito dos dois no casamento.",
-   "1018177771331576": "Cena do casal que briga toda sexta porque um quer sair e o outro ficar em casa; atribui à combinação de temperamentos.",
-   "1139159255399499": "Ângulo de fé: ser diferente não é ser incompatível, falta entender a diferença e conversar sobre ela.",
-   "1573358988145942": "Convite a 15 minutos por noite sem celular, com um caderno de conversas guiadas por 21 dias para parar a briga repetida.",
-   "1125831277043751": "Anúncio de oferta direta: detalha os três PDFs do kit (e-book, teste do casal e caderno de 21 dias) e o preço baixo.",
-   "1780350329690210": "Pergunta qual é a combinação de temperamentos do casal e promete ir direto ao que funciona para aquela dupla.",
-   "1447296806831587": "Cena da esposa que insiste e do marido que se cala; explica o ciclo como choque entre temperamento rápido e calmo."
-  },
-  "criativos": [
-   {
-    "id": "1674637380965984",
-    "inicio": "2026-11-12",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "antigo",
-    "gancho": "Contrapõe o teste de temperamento feito sozinho a um teste que cruza o jeito dos dois no casamento."
-   },
-   {
-    "id": "1018177771331576",
-    "inicio": "2026-11-12",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "antigo",
-    "gancho": "Cena do casal que briga toda sexta porque um quer sair e o outro ficar em casa; atribui à combinação de temperamentos."
-   },
-   {
-    "id": "1139159255399499",
-    "inicio": "2026-11-12",
-    "copias": 1,
-    "formato": "imagem",
-    "grupo": "antigo",
-    "gancho": "Ângulo de fé: ser diferente não é ser incompatível, falta entender a diferença e conversar sobre ela."
-   },
-   {
-    "id": "1573358988145942",
-    "inicio": "2026-11-12",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "antigo",
-    "gancho": "Convite a 15 minutos por noite sem celular, com um caderno de conversas guiadas por 21 dias para parar a briga repetida."
-   },
-   {
-    "id": "1125831277043751",
-    "inicio": "2026-11-13",
-    "copias": 1,
-    "formato": "imagem",
-    "grupo": "novo",
-    "gancho": "Anúncio de oferta direta: detalha os três PDFs do kit (e-book, teste do casal e caderno de 21 dias) e o preço baixo."
-   },
-   {
-    "id": "1780350329690210",
-    "inicio": "2026-11-13",
-    "copias": 1,
-    "formato": "imagem",
-    "grupo": "novo",
-    "gancho": "Pergunta qual é a combinação de temperamentos do casal e promete ir direto ao que funciona para aquela dupla."
-   },
-   {
-    "id": "1447296806831587",
-    "inicio": "2026-11-12",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Cena da esposa que insiste e do marido que se cala; explica o ciclo como choque entre temperamento rápido e calmo."
-   }
-  ],
-  "criativos_em": "2026-11-16",
+  "ganchos": {},
+  "criativos": [],
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -999,7 +907,7 @@
    "formato": "PDF (ebook + caderno de 21 dias)",
    "promessa": "Casal cristão descobre a combinação dos seus temperamentos e pratica 21 dias de exercícios a dois para transformar diferenças em conversa.",
    "h1_hash": "b3bafe2429a1",
-   "lida_em": "2026-11-16"
+   "lida_em": "2026-11-19"
   }
  },
  "quiz.maridosperfumes.com.br": {
@@ -1011,7 +919,7 @@
    "961233773732254": "Mesma promessa de sair do zero na revenda de importados, com o ebook como guia dos passos iniciais.",
    "1660422375632272": "Abre mostrando que há gente lucrando com perfumes importados e posiciona o ebook como o mapa de onde comprar e o que vender.",
    "970137759110303": "Ângulo de margem: achar o produto não basta, é preciso o fornecedor certo para lucrar na revenda; ebook entrega a lista.",
-   "1851635349348322": "Foco no que faz diferença para dar certo na venda de importados; ebook com orientações práticas para estruturar a loja."
+   "1150878464048267": "Lista de benefícios: onde comprar com margem alta, como montar loja online e vender sem ponto físico; acesso na hora com bônus."
   },
   "criativos": [
    {
@@ -1071,15 +979,15 @@
     "gancho": "Ângulo de margem: achar o produto não basta, é preciso o fornecedor certo para lucrar na revenda; ebook entrega a lista."
    },
    {
-    "id": "1851635349348322",
+    "id": "1150878464048267",
     "inicio": "2026-11-10",
-    "copias": 1,
+    "copias": 3,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Foco no que faz diferença para dar certo na venda de importados; ebook com orientações práticas para estruturar a loja."
+    "gancho": "Lista de benefícios: onde comprar com margem alta, como montar loja online e vender sem ponto físico; acesso na hora com bônus."
    }
   ],
-  "criativos_em": "2026-11-16",
+  "criativos_em": "2026-11-19",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -1095,6 +1003,101 @@
    "promessa": "Depois de um quiz, oferece o caminho da autora para revender perfumes e cosméticos importados pela internet, com seus fornecedores, ebooks e suporte.",
    "h1_hash": null,
    "lida_em": "2026-11-16"
+  }
+ },
+ "telmacristina.com": {
+  "ganchos": {
+   "1146757234447862": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda.",
+   "1424994865792948": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda.",
+   "2035271826966548": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda.",
+   "3002324850106184": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda.",
+   "1830829118158385": "Combo de Black: cinco ebooks de confeitaria (incluindo bolos de feira) pelo preço de um, com sorteio de eletrodoméstico.",
+   "28874596002211035": "Combo de Black: cinco ebooks de confeitaria (incluindo bolos de feira) pelo preço de um, com sorteio de eletrodoméstico.",
+   "961427077050177": "Combo de Black: cinco ebooks de confeitaria (incluindo bolos de feira) pelo preço de um, com sorteio de eletrodoméstico.",
+   "1495075189174180": "Outro produto da mesma autora: curso de cookies, agora em formato de lista do que se aprende."
+  },
+  "criativos": [
+   {
+    "id": "1146757234447862",
+    "inicio": "2026-10-19",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda."
+   },
+   {
+    "id": "1424994865792948",
+    "inicio": "2026-10-19",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda."
+   },
+   {
+    "id": "2035271826966548",
+    "inicio": "2026-10-19",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda."
+   },
+   {
+    "id": "3002324850106184",
+    "inicio": "2026-10-19",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Outro produto da mesma autora: lançamento de curso de cookies com sabores, precificação, armazenamento e venda."
+   },
+   {
+    "id": "1830829118158385",
+    "inicio": "2026-11-16",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Combo de Black: cinco ebooks de confeitaria (incluindo bolos de feira) pelo preço de um, com sorteio de eletrodoméstico."
+   },
+   {
+    "id": "28874596002211035",
+    "inicio": "2026-11-16",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Combo de Black: cinco ebooks de confeitaria (incluindo bolos de feira) pelo preço de um, com sorteio de eletrodoméstico."
+   },
+   {
+    "id": "961427077050177",
+    "inicio": "2026-11-16",
+    "copias": 2,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Combo de Black: cinco ebooks de confeitaria (incluindo bolos de feira) pelo preço de um, com sorteio de eletrodoméstico."
+   },
+   {
+    "id": "1495075189174180",
+    "inicio": "2026-11-15",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Outro produto da mesma autora: curso de cookies, agora em formato de lista do que se aprende."
+   }
+  ],
+  "criativos_em": "2026-11-19",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$49,90"
+   ],
+   "ancora": "R$97",
+   "bonus": 4,
+   "garantia_dias": 7,
+   "checkout": "Hotmart",
+   "video": false,
+   "order_bump": null,
+   "formato": "apostila digital (PDF) + 4 bônus",
+   "promessa": "Mulher que quer renda em casa aprende a produzir e vender uma dúzia de bolos de feira, com massa, recheio, finalização e noções de preço.",
+   "h1_hash": "bca0ad27e01a",
+   "lida_em": "2026-11-19"
   }
  }
 }
