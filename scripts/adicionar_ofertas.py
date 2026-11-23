@@ -12,7 +12,7 @@ novas = 0
 for v in json.load(open(sys.argv[1], encoding="utf-8")):
     v = [str(x) for x in v] + [""] * (14 - len(v))
     # planilha: Data, Palavra, Anunciante, Domínio, Ativos, Dias, Nicho, Preço, Link anúncio, Link página, Ângulo, Nota, Justificativa, Status
-    dom = v[3].strip()
+    dom = re.sub(r"^https?://(www\.)?", "", v[3].strip()).rstrip("/")
     if not dom or dom in conhecidos or not re.match(r"\d{2}/\d{2}/\d{4}", v[0]):
         continue
     ad_id = (re.search(r"id=(\d+)", v[8]) or [None, ""])[1]

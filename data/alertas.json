@@ -1,5 +1,45 @@
 [
  {
+  "d": "2026-11-23",
+  "dominio": "codigodasduasrodas.pages.dev",
+  "id": "leandro-sampaio-codigodasduasrodas",
+  "anunciante": "Leandro Sampaio",
+  "tipo": "fogo",
+  "texto": "Entrou no 🔥: 15 anúncios, 1 anunciante, anúncio mais antigo com 25 dias."
+ },
+ {
+  "d": "2026-11-23",
+  "dominio": "alinecustodio.com.br",
+  "id": "aline-custodio-penteados-alinecustodio",
+  "anunciante": "Aline Custodio Penteados",
+  "tipo": "fogo",
+  "texto": "Entrou no 🔥: 5 anúncios, 1 anunciante, anúncio mais antigo com 13 dias."
+ },
+ {
+  "d": "2026-11-23",
+  "dominio": "alinecustodio.com.br",
+  "id": "aline-custodio-penteados-alinecustodio",
+  "anunciante": "Aline Custodio Penteados",
+  "tipo": "anunciantes",
+  "texto": "Mais gente rodando o domínio: 0 → 1 anunciantes."
+ },
+ {
+  "d": "2026-11-23",
+  "dominio": "aisnemorelli.com.br",
+  "id": "aisne-morelli-aisnemorelli",
+  "anunciante": "Aisne morelli",
+  "tipo": "caiu",
+  "texto": "Anúncios ativos caíram de 37 para 7 em um dia."
+ },
+ {
+  "d": "2026-11-23",
+  "dominio": "as365receitascheflu.lovable.app",
+  "id": "luana-oliveira-as365receitascheflu",
+  "anunciante": "Luana Oliveira",
+  "tipo": "caiu",
+  "texto": "Anúncios ativos caíram de 100 para 45 em um dia."
+ },
+ {
   "d": "2026-11-19",
   "dominio": "deborazagohair.com.br",
   "id": "debora-zago-hair-deborazagohair",

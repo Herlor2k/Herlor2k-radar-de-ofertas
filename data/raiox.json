@@ -1,8 +1,55 @@
 {
  "alinecustodio.com.br": {
-  "ganchos": {},
-  "criativos": [],
-  "criativos_em": "2026-11-19",
+  "ganchos": {
+   "1619530259208861": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez.",
+   "1487993499916894": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez.",
+   "1508494687757780": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez.",
+   "1972946964071508": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez.",
+   "1643200990596635": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez."
+  },
+  "criativos": [
+   {
+    "id": "1619530259208861",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez."
+   },
+   {
+    "id": "1487993499916894",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez."
+   },
+   {
+    "id": "1508494687757780",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez."
+   },
+   {
+    "id": "1972946964071508",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez."
+   },
+   {
+    "id": "1643200990596635",
+    "inicio": "2026-11-10",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Black Friday de um pacote vitalício com todos os cursos de penteado da autora, atuais e futuros, pago uma única vez."
+   }
+  ],
+  "criativos_em": "2026-11-23",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -15,9 +62,9 @@
    "video": true,
    "order_bump": null,
    "formato": "pacote de cursos em vídeo + kit físico + workshop presencial",
-   "promessa": "A página agora vende, em pagamento único, acesso a todos os cursos de penteado atuais e futuros da autora; a imersão de R$47 aparece só como item do pacote.",
+   "promessa": "Pagamento único dá acesso vitalício a todos os cursos de penteado da autora, inclusive os futuros; a imersão de R$47 virou só um item do pacote.",
    "h1_hash": "88a3f6d0da24",
-   "lida_em": "2026-11-19"
+   "lida_em": "2026-11-23"
   }
  },
  "ebook.acessibilidadearquitetonica.com": {
@@ -43,7 +90,7 @@
     "gancho": "Mesma fórmula para um segundo livro, sobre calçadas acessíveis, também de R$67 por R$19,90."
    }
   ],
-  "criativos_em": "2026-11-19",
+  "criativos_em": "2026-11-23",
   "mudancas": [
    {
     "d": "2026-11-12",
@@ -58,20 +105,20 @@
    ],
    "ancora": "R$67",
    "bonus": null,
-   "garantia_dias": 7,
+   "garantia_dias": null,
    "checkout": null,
    "video": false,
    "order_bump": null,
-   "formato": "PDF (pranchas visuais)",
-   "promessa": "Arquiteto ou engenheiro confere em segundos, com desenhos lado a lado de certo e errado, os pontos de acessibilidade da norma que mais reprovam projetos.",
+   "formato": "PDF (checklist visual)",
+   "promessa": "Arquiteto ou engenheiro aplica a norma de acessibilidade com segurança e rapidez, sem medo de errar no projeto.",
    "h1_hash": "247394d872d1",
-   "lida_em": "2026-11-19"
+   "lida_em": "2026-11-23"
   }
  },
  "nucleoedifica.com.br": {
   "ganchos": {},
   "criativos": [],
-  "criativos_em": "2026-11-19",
+  "criativos_em": "2026-11-23",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -83,10 +130,10 @@
    "checkout": null,
    "video": false,
    "order_bump": null,
-   "formato": "curso em vídeo (5 aulas) + material",
-   "promessa": "Quem trabalha em obra aprende a ler e interpretar plantas arquitetônicas em poucos dias, mesmo partindo do zero.",
+   "formato": "curso em vídeo + arquivos de projetos reais",
+   "promessa": "Quem trabalha em obra aprende a ler e interpretar plantas arquitetônicas em poucos dias, mesmo sem nunca ter pegado uma.",
    "h1_hash": "049d21781e1c",
-   "lida_em": "2026-11-19"
+   "lida_em": "2026-11-23"
   }
  },
  "mineirodasvendas.com.br": {
@@ -560,66 +607,30 @@
     "R$47"
    ],
    "ancora": "R$260",
-   "bonus": 6,
+   "bonus": null,
    "garantia_dias": null,
    "checkout": "Hotmart",
    "video": false,
    "order_bump": null,
-   "formato": "minicurso em vídeo + apostila e guias",
-   "promessa": "Iniciante aprende a montar seus próprios perfumes com segurança em cerca de uma hora, desperdiçando menos material.",
+   "formato": "produto digital instantâneo",
+   "promessa": "Iniciante aprende a base da perfumaria e cria os primeiros perfumes com mais segurança, em cerca de uma hora e com menos desperdício.",
    "h1_hash": "4d575f9fe3ff",
-   "lida_em": "2026-11-19"
+   "lida_em": "2026-11-23"
   },
   "ganchos": {
-   "2353156765469867": "Outro produto do anunciante: Black de uma formação vitalícia de saboaria com vários cursos e bônus, vendendo a ideia de parar de comprar curso avulso.",
-   "1676028750667641": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado.",
-   "1681186883371933": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado.",
-   "4535234506740917": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado.",
-   "1654796013345325": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
+   "29727751533498646": "Outro produto da autora: formação vitalícia em saboaria com vários cursos e bônus, anunciada como oferta de Black Friday."
   },
   "criativos": [
    {
-    "id": "2353156765469867",
-    "inicio": "2026-11-13",
-    "copias": 8,
-    "formato": "vídeo",
-    "grupo": "antigo",
-    "gancho": "Outro produto do anunciante: Black de uma formação vitalícia de saboaria com vários cursos e bônus, vendendo a ideia de parar de comprar curso avulso."
-   },
-   {
-    "id": "1676028750667641",
-    "inicio": "2026-11-17",
+    "id": "29727751533498646",
+    "inicio": "2026-11-23",
     "copias": 7,
-    "formato": "vídeo",
+    "formato": "imagem",
     "grupo": "antigo",
-    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
-   },
-   {
-    "id": "1681186883371933",
-    "inicio": "2026-11-17",
-    "copias": 7,
-    "formato": "vídeo",
-    "grupo": "antigo",
-    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
-   },
-   {
-    "id": "4535234506740917",
-    "inicio": "2026-11-17",
-    "copias": 7,
-    "formato": "vídeo",
-    "grupo": "antigo",
-    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
-   },
-   {
-    "id": "1654796013345325",
-    "inicio": "2026-11-17",
-    "copias": 8,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Outro produto da mesma autora: Black de saboaria vitalícia, vende o pacote de vários cursos e bônus como fim de comprar curso picado."
+    "gancho": "Outro produto da autora: formação vitalícia em saboaria com vários cursos e bônus, anunciada como oferta de Black Friday."
    }
   ],
-  "criativos_em": "2026-11-19"
+  "criativos_em": "2026-11-23"
  },
  "mayaracamposconfeitaria.com.br": {
   "ganchos": {
@@ -627,10 +638,10 @@
    "1823075858696070": "Abertura de inscrições do curso de sobremesas na travessa, listando os sabores e mirando quem quer vender doces no Natal.",
    "1442835937990479": "Abertura de inscrições do curso de sobremesas na travessa, listando os sabores e mirando quem quer vender doces no Natal.",
    "1603460408181630": "Anuncia inscrições abertas listando os sabores de sobremesa de travessa que dá para vender no Natal.",
-   "1089517924122110": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno e sem gelatina, com desconto, acesso estendido e sorteio.",
-   "1790028302300696": "Black Friday do curso de tortas de vitrine: desconto de 30%, acesso estendido para 2 anos e sorteio de brinde. É outro curso da mesma confeiteira, não o de sobremesas na travessa.",
-   "1607033444557371": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde.",
-   "2196929194582219": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde."
+   "2196929194582219": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde.",
+   "1127836326320129": "Outro curso da autora (tortas de vitrine sem forno) em promoção de Black Friday, com desconto, acesso estendido e sorteio de brinde.",
+   "1664718898711648": "Outro treinamento da autora, de fatias de bolo para vender, em condição de Black Friday com desconto e dois anos de acesso.",
+   "2012490636091468": "Outro curso da autora, de bolos gelados para aumentar encomendas, na Black Friday com desconto e sorteio de panelas."
   },
   "criativos": [
    {
@@ -666,12 +677,20 @@
     "gancho": "Anuncia inscrições abertas listando os sabores de sobremesa de travessa que dá para vender no Natal."
    },
    {
-    "id": "1607033444557371",
+    "id": "1127836326320129",
+    "inicio": "2026-11-14",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Outro curso da autora (tortas de vitrine sem forno) em promoção de Black Friday, com desconto, acesso estendido e sorteio de brinde."
+   },
+   {
+    "id": "1664718898711648",
     "inicio": "2026-11-14",
     "copias": 4,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde."
+    "gancho": "Outro treinamento da autora, de fatias de bolo para vender, em condição de Black Friday com desconto e dois anos de acesso."
    },
    {
     "id": "2196929194582219",
@@ -682,23 +701,15 @@
     "gancho": "Outro produto da mesma autora: campanha de Black Friday do treinamento de bolos gelados, com desconto, acesso estendido e sorteio de brinde."
    },
    {
-    "id": "1790028302300696",
+    "id": "2012490636091468",
     "inicio": "2026-11-14",
-    "copias": 3,
+    "copias": 4,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Black Friday do curso de tortas de vitrine: desconto de 30%, acesso estendido para 2 anos e sorteio de brinde. É outro curso da mesma confeiteira, não o de sobremesas na travessa."
-   },
-   {
-    "id": "1089517924122110",
-    "inicio": "2026-11-14",
-    "copias": 3,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Outro produto do anunciante: Black do curso de tortas de vitrine sem forno e sem gelatina, com desconto, acesso estendido e sorteio."
+    "gancho": "Outro curso da autora, de bolos gelados para aumentar encomendas, na Black Friday com desconto e sorteio de panelas."
    }
   ],
-  "criativos_em": "2026-11-19",
+  "criativos_em": "2026-11-23",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -711,9 +722,9 @@
    "video": false,
    "order_bump": null,
    "formato": "curso em vídeo + ebook",
-   "promessa": "Confeiteira aprende sobremesas práticas de travessa para produzir e vender bastante nas encomendas de Natal.",
+   "promessa": "Confeiteira aprende nove sobremesas de travessa práticas para produzir em quantidade e vender nas encomendas de Natal.",
    "h1_hash": "49aa0ee27b21",
-   "lida_em": "2026-11-19"
+   "lida_em": "2026-11-23"
   }
  },
  "rafaeldomarketing.com.br": {
@@ -802,7 +813,7 @@
    "2153416298900096": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor.",
    "1430868465926400": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor.",
    "1430961905281884": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor.",
-   "2136840443582814": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
+   "1763537928082320": "Mostra pratos do dia a dia (bolo, pão, sobremesa) e provoca: dá para fazer tudo sem glúten, açúcar e lactose sem perder o sabor."
   },
   "criativos": [
    {
@@ -838,6 +849,14 @@
     "gancho": "Surpresa: pratos que parecem receitas comuns mas são livres de açúcar, glúten e lactose; a chef se apresenta como autora do livro."
    },
    {
+    "id": "1763537928082320",
+    "inicio": "2026-11-15",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Mostra pratos do dia a dia (bolo, pão, sobremesa) e provoca: dá para fazer tudo sem glúten, açúcar e lactose sem perder o sabor."
+   },
+   {
     "id": "2153416298900096",
     "inicio": "2026-11-14",
     "copias": 1,
@@ -860,17 +879,9 @@
     "formato": "vídeo",
     "grupo": "novo",
     "gancho": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
-   },
-   {
-    "id": "2136840443582814",
-    "inicio": "2026-11-10",
-    "copias": 1,
-    "formato": "vídeo",
-    "grupo": "novo",
-    "gancho": "Desejo: lista comidas de vontade (bolo, pão, doce cremoso) e quebra a descrença de que dá para fazer sem as restrições sem perder o sabor."
    }
   ],
-  "criativos_em": "2026-11-19",
+  "criativos_em": "2026-11-23",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -883,10 +894,10 @@
    "checkout": "Wiapy",
    "video": false,
    "order_bump": null,
-   "formato": "material digital de receitas",
-   "promessa": "Coletânea de um ano de receitas sem açúcar, glúten e lactose para comer bem todo dia sem abrir mão do sabor.",
+   "formato": "material digital de receitas (entrega no WhatsApp)",
+   "promessa": "Um ano de receitas sem açúcar, glúten e lactose para comer bem todo dia sem abrir mão do sabor.",
    "h1_hash": "a73c7b94cd15",
-   "lida_em": "2026-11-19"
+   "lida_em": "2026-11-23"
   }
  },
  "temperamentosadois.com": {
@@ -916,10 +927,10 @@
    "1035112109339090": "Fala com quem quer revender perfumes e cosméticos importados mas não sabe o primeiro passo; vende o ebook com fornecedores e escolha de produtos.",
    "1122828270275954": "Antes de investir em estoque, saiba por onde começar: ebook com fornecedores, escolha de produtos e montagem da loja.",
    "1428964876042243": "Pergunta direta a quem sonha com loja de perfumes importados e oferece um material reunindo os primeiros passos.",
-   "961233773732254": "Mesma promessa de sair do zero na revenda de importados, com o ebook como guia dos passos iniciais.",
-   "1660422375632272": "Abre mostrando que há gente lucrando com perfumes importados e posiciona o ebook como o mapa de onde comprar e o que vender.",
-   "970137759110303": "Ângulo de margem: achar o produto não basta, é preciso o fornecedor certo para lucrar na revenda; ebook entrega a lista.",
-   "1150878464048267": "Lista de benefícios: onde comprar com margem alta, como montar loja online e vender sem ponto físico; acesso na hora com bônus."
+   "1092375517126211": "Oferece um ebook com o básico para começar a revender perfumes importados: onde comprar, o que escolher e como estruturar a loja.",
+   "4514662662082772": "Relato da autora que errava compras e postagens no começo e hoje toca a loja de qualquer lugar depois de aprender o método.",
+   "1655408059300467": "Alerta para os erros caros de quem começa sem rumo na perfumaria (estoque, fornecedor, vendas) e apresenta o curso como atalho.",
+   "1681329556759796": "Relato da autora que errava compras e postagens no começo e hoje toca a loja de qualquer lugar depois de aprender o método."
   },
   "criativos": [
    {
@@ -955,39 +966,39 @@
     "gancho": "Pergunta direta a quem sonha com loja de perfumes importados e oferece um material reunindo os primeiros passos."
    },
    {
-    "id": "961233773732254",
-    "inicio": "2026-11-10",
-    "copias": 2,
+    "id": "1092375517126211",
+    "inicio": "2026-11-17",
+    "copias": 1,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Mesma promessa de sair do zero na revenda de importados, com o ebook como guia dos passos iniciais."
+    "gancho": "Oferece um ebook com o básico para começar a revender perfumes importados: onde comprar, o que escolher e como estruturar a loja."
    },
    {
-    "id": "1660422375632272",
+    "id": "4514662662082772",
     "inicio": "2026-11-10",
-    "copias": 2,
+    "copias": 4,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Abre mostrando que há gente lucrando com perfumes importados e posiciona o ebook como o mapa de onde comprar e o que vender."
+    "gancho": "Relato da autora que errava compras e postagens no começo e hoje toca a loja de qualquer lugar depois de aprender o método."
    },
    {
-    "id": "970137759110303",
+    "id": "1655408059300467",
     "inicio": "2026-11-10",
-    "copias": 2,
+    "copias": 5,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Ângulo de margem: achar o produto não basta, é preciso o fornecedor certo para lucrar na revenda; ebook entrega a lista."
+    "gancho": "Alerta para os erros caros de quem começa sem rumo na perfumaria (estoque, fornecedor, vendas) e apresenta o curso como atalho."
    },
    {
-    "id": "1150878464048267",
+    "id": "1681329556759796",
     "inicio": "2026-11-10",
-    "copias": 3,
+    "copias": 4,
     "formato": "vídeo",
     "grupo": "novo",
-    "gancho": "Lista de benefícios: onde comprar com margem alta, como montar loja online e vender sem ponto físico; acesso na hora com bônus."
+    "gancho": "Relato da autora que errava compras e postagens no começo e hoje toca a loja de qualquer lugar depois de aprender o método."
    }
   ],
-  "criativos_em": "2026-11-19",
+  "criativos_em": "2026-11-23",
   "mudancas": [],
   "pagina": {
    "precos": [
@@ -1098,6 +1109,291 @@
    "promessa": "Mulher que quer renda em casa aprende a produzir e vender uma dúzia de bolos de feira, com massa, recheio, finalização e noções de preço.",
    "h1_hash": "bca0ad27e01a",
    "lida_em": "2026-11-19"
+  }
+ },
+ "deborazagohair.com.br": {
+  "ganchos": {
+   "2003722107189445": "Promete à cabeleireira loiros perfeitos e fama de referência no salão, com diagnóstico do fio e colorimetria passo a passo.",
+   "1955453488447080": "Promete à cabeleireira loiros perfeitos e fama de referência no salão, com diagnóstico do fio e colorimetria passo a passo.",
+   "1283834403953073": "Promete à cabeleireira loiros perfeitos e fama de referência no salão, com diagnóstico do fio e colorimetria passo a passo.",
+   "1099880066217579": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros).",
+   "1085531694447771": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros).",
+   "2206943776838931": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros).",
+   "4205772726381897": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros).",
+   "2065737904143619": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros)."
+  },
+  "criativos": [
+   {
+    "id": "2003722107189445",
+    "inicio": "2026-04-30",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Promete à cabeleireira loiros perfeitos e fama de referência no salão, com diagnóstico do fio e colorimetria passo a passo."
+   },
+   {
+    "id": "1955453488447080",
+    "inicio": "2026-04-30",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Promete à cabeleireira loiros perfeitos e fama de referência no salão, com diagnóstico do fio e colorimetria passo a passo."
+   },
+   {
+    "id": "1283834403953073",
+    "inicio": "2026-04-30",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Promete à cabeleireira loiros perfeitos e fama de referência no salão, com diagnóstico do fio e colorimetria passo a passo."
+   },
+   {
+    "id": "1099880066217579",
+    "inicio": "2026-11-16",
+    "copias": 4,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros)."
+   },
+   {
+    "id": "1085531694447771",
+    "inicio": "2026-11-23",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros)."
+   },
+   {
+    "id": "2206943776838931",
+    "inicio": "2026-11-23",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros)."
+   },
+   {
+    "id": "4205772726381897",
+    "inicio": "2026-11-23",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros)."
+   },
+   {
+    "id": "2065737904143619",
+    "inicio": "2026-11-23",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "Combo com todos os ebooks da autora e gravação de um evento, com preço cheio riscado e valor final bem menor (vende o pacote, não só o ebook de loiros)."
+   }
+  ],
+  "criativos_em": "2026-11-23",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$67"
+   ],
+   "ancora": null,
+   "bonus": null,
+   "garantia_dias": 7,
+   "checkout": "Hotmart",
+   "video": false,
+   "order_bump": null,
+   "formato": "PDF (ebook)",
+   "promessa": "Cabeleireira aprende a corrigir e clarear cabelos difíceis até um loiro impecável, com as técnicas que a autora usa no salão.",
+   "h1_hash": "281e0174bd56",
+   "lida_em": "2026-11-23"
+  }
+ },
+ "hofacil.com.br": {
+  "ganchos": {
+   "1644849563714346": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido.",
+   "1468510445416603": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido.",
+   "2361610704595308": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido.",
+   "1861831634831746": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido.",
+   "2621806508333557": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final.",
+   "1056746074107649": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final.",
+   "1753642059815632": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final.",
+   "2670738720043904": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final."
+  },
+  "criativos": [
+   {
+    "id": "1644849563714346",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido."
+   },
+   {
+    "id": "1468510445416603",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido."
+   },
+   {
+    "id": "2361610704595308",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido."
+   },
+   {
+    "id": "1861831634831746",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Planta a dúvida no técnico que assinou o laudo achando que estava tudo certo: um detalhe da coleta ou da análise pode ter passado batido."
+   },
+   {
+    "id": "2621806508333557",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final."
+   },
+   {
+    "id": "1056746074107649",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final."
+   },
+   {
+    "id": "1753642059815632",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final."
+   },
+   {
+    "id": "2670738720043904",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Fala da dor de perder horas cruzando várias normas para enquadrar um agente químico no laudo e da insegurança que sobra no final."
+   }
+  ],
+  "criativos_em": "2026-11-23",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$97"
+   ],
+   "ancora": "R$388",
+   "bonus": 3,
+   "garantia_dias": 7,
+   "checkout": null,
+   "video": false,
+   "order_bump": null,
+   "formato": "livro físico + 3 bônus",
+   "promessa": "Profissional de segurança do trabalho tira as dúvidas técnicas de higiene ocupacional antes de assinar um laudo, em formato de perguntas e respostas.",
+   "h1_hash": "a9eaf2167be4",
+   "lida_em": "2026-11-23"
+  }
+ },
+ "organizecomju.com.br": {
+  "ganchos": {
+   "2202171913712430": "Relato de quem arrumava tudo no fim de semana e via a bagunça voltar no meio da semana; culpa a falta de método, não de esforço.",
+   "1656819339150030": "Apelo estético de casa acolhedora e cheirosa como algo ao alcance, com prova de milhares de famílias atendidas.",
+   "1889373632059546": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção.",
+   "3121006798231448": "Liga casa organizada a cuidado e paz interior e pede um comentário com palavra-chave para receber o método.",
+   "5156789131273933": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção.",
+   "1108682408462149": "Dividir a faxina em pequenas partes por dia para liberar o fim de semana para a família.",
+   "1615445269785957": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção.",
+   "1627039585841697": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção."
+  },
+  "criativos": [
+   {
+    "id": "2202171913712430",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "Relato de quem arrumava tudo no fim de semana e via a bagunça voltar no meio da semana; culpa a falta de método, não de esforço."
+   },
+   {
+    "id": "1656819339150030",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Apelo estético de casa acolhedora e cheirosa como algo ao alcance, com prova de milhares de famílias atendidas."
+   },
+   {
+    "id": "1889373632059546",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "antigo",
+    "gancho": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção."
+   },
+   {
+    "id": "3121006798231448",
+    "inicio": "2026-11-06",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "antigo",
+    "gancho": "Liga casa organizada a cuidado e paz interior e pede um comentário com palavra-chave para receber o método."
+   },
+   {
+    "id": "5156789131273933",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção."
+   },
+   {
+    "id": "1108682408462149",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "imagem",
+    "grupo": "novo",
+    "gancho": "Dividir a faxina em pequenas partes por dia para liberar o fim de semana para a família."
+   },
+   {
+    "id": "1615445269785957",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção."
+   },
+   {
+    "id": "1627039585841697",
+    "inicio": "2026-11-22",
+    "copias": 1,
+    "formato": "vídeo",
+    "grupo": "novo",
+    "gancho": "A casa arrumada de manhã já está bagunçada à noite; a culpa não é sua, falta um sistema de manutenção."
+   }
+  ],
+  "criativos_em": "2026-11-23",
+  "mudancas": [],
+  "pagina": {
+   "precos": [
+    "R$27"
+   ],
+   "ancora": "R$201",
+   "bonus": null,
+   "garantia_dias": 7,
+   "checkout": "Hub.la",
+   "video": false,
+   "order_bump": null,
+   "formato": "método digital",
+   "promessa": "Sistema para manter a casa organizada com cerca de uma hora por dia, impedindo que a bagunça volte em vez de arrumar tudo de novo.",
+   "h1_hash": "4123eb94d913",
+   "lida_em": "2026-11-23"
   }
  }
 }
